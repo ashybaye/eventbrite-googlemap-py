@@ -4,53 +4,59 @@
 
     <h1>My events</h1>
     <div class="row">
-        <div class="col-sm-8">
-            {% if sndmap %}
-                {{sndmap.js}}
-                {{sndmap.html}}
-            {% endif %}
-        </div>
         <div class="col-sm-4">
             <h4>Please add event search parameters:</h4>
             <form action="" method="post">
                 <div class="form-group">
                     {{ form.hidden_tag() }}
-             
-                        {{ form.place_start.label }}<br>
-                        {{ form.place_start(size=60,class_='form-control') }}<br>
+                
+                        {{ form.place_start.label(class_='col-form-label') }}
+                        {{ form.place_start(size=60,class_='form-control') }}
+                        
                         {% for error in form.place_start.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}
-                 
-                        {{ form.place_end.label }}<br>
-                        {{ form.place_end(size=60,class_='form-control') }}<br>
+
+                        {{ form.place_end.label(class_='col-form-label') }}
+                        {{ form.place_end(size=60,class_='form-control') }}
                         {% for error in form.place_end.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}
-                   
-                        {{ form.interest.label }}<br>
-                        {{ form.interest(size=60,class_='form-control') }}<br>
+
+                        {{ form.interest.label(class_='col-form-label') }}
+                        {{ form.interest(size=60,class_='form-control') }}
                         {% for error in form.interest.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}
-                    
-                        {{ form.dt_start.label }}<br>
-                        {{ form.dt_start(size=60,class_='form-control') }}<br>
+
+                        {{ form.dt_start.label(class_='col-form-label') }}
+                        {{ form.dt_start(size=60,class_='form-control') }}
                         {% for error in form.dt_start.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}
-                    
-                        {{ form.dt_end.label }}<br>
-                        {{ form.dt_end(size=60,class_='form-control') }}<br>
+
+                        {{ form.dt_end.label(class_='col-form-label') }}
+                        {{ form.dt_end(size=60,class_='form-control') }}
                         {% for error in form.dt_end.errors %}
                         <span style="color: red;">[{{ error }}]</span>
-                        {% endfor %}
-                              
-
+                        {% endfor %}     
+                    <br/>
                     {{ form.submit(class_='btn btn-success') }}
                 </div>
             </form>
         </div>  
+        <div class="col-sm-8">
+            <div id="loading">
+                <img src= "/static/images/loading.gif">
+            </div>
+            <div id="google-map">
+                {% if sndmap %}
+                    {{sndmap.js}}
+                    {{sndmap.html}}
+                {% endif %}
+            </div>
+        </div>
+ 
     </div>  
     
 {% endblock %}

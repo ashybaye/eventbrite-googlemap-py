@@ -15,14 +15,10 @@
         <!-- datepicker -->
         <script src="https://cdn.jsdelivr.net/npm/gijgo@1.9.3/combined/js/gijgo.min.js" type="text/javascript"></script>
         <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.3/combined/css/gijgo.min.css" rel="stylesheet" type="text/css" />
-        <style type="text/css">
-            #bodyContent {
-                max-width: 300px;
-            }
-            .map {
-                height: 90%;
-            }
-        </style>
+        
+        <!-- add local styles -->
+        <link href="static/style.css" rel="stylesheet" type="text/css" />
+
         <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -40,6 +36,7 @@
         </div>
 
         <script>
+            // initialize datepickers
             var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
             $('#dt_start').datepicker({
                 uiLibrary: 'bootstrap4',
@@ -51,7 +48,12 @@
                 minDate: today,
                 format: 'yyyy-mm-dd'
             });
-            </script>
+            $('#submit').click(function(){
+                //alert('yay!');
+                $('#loading').show();
+                $("#google-map").hide(); 
+            });
+        </script>
 
     </body>
 </html>
