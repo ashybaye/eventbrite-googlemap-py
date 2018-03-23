@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-    <html>
-    <head>
-      {{sndmap.js}}
-    </head>
-    <body>
-        <h3>Your events</h3>
-        {{sndmap.html}}
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+
+    {{sndmap.js}}
+    <h3>Your events</h3>
+    {{sndmap.html}}
+
+{% endblock %}

@@ -24,7 +24,21 @@
           {% for error in form.interest.errors %}
           <span style="color: red;">[{{ error }}]</span>
           {% endfor %}
-      </p>        
+      </p>  
+      <p>
+        {{ form.dt_start.label }}<br>
+        {{ form.dt_start(size=60) }}<br>
+        {% for error in form.dt_start.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.dt_end.label }}<br>
+        {{ form.dt_end(size=60) }}<br>
+        {% for error in form.dt_end.errors %}
+        <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>            
 
         <p>{{ form.submit() }}</p>
     </form>

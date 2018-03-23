@@ -2,7 +2,7 @@ from flask import Flask,jsonify
 import json, requests, csv, pprint
 import uuid
 
-def CreateJSON(s,e,k):
+def CreateJSON(s,e,k,dt_start,dt_end):
 
     """
     1. Get initial user parameters (locations, keywords, etc.)
@@ -12,9 +12,9 @@ def CreateJSON(s,e,k):
     input_destination = e
     keyword1 = k
     radius = 30
-    start_date_time_start = '2018-04-11'
+    start_date_time_start = dt_start
     start_date_time_start = start_date_time_start + 'T18:00:00'
-    start_date_time_end = '2018-04-16'
+    start_date_time_end = dt_end
     start_date_time_end = start_date_time_end + 'T23:00:00'
 
     #APIkeys:
@@ -242,15 +242,22 @@ def CreateJSON(s,e,k):
                 longitude = round(float(data['events'][event_num]['venue']['address']['longitude']), 7)
                 latitude = round(float(data['events'][event_num]['venue']['address']['latitude']), 7)
                 name = data['events'][event_num]['name']['text']
-                description_raw = data['events'][event_num]['description']['text']
-                if description_raw != '':
-                    description = ' '.join(description_raw.split())
-                    description = (description[:110] + '..') if len(description) > 110 else description
-                else: description = 'No description.'
 
             except (RuntimeError, TypeError, NameError):
                 longitude = latitude = name = description = 'Empty'
                 pass
+
+            try:
+                description_raw = data['events'][event_num]['description']['text']
+                if description_raw != None:
+                    description = ' '.join(description_raw.split())
+                    description = ((description[:110] + '..') if len(description) > 110 else description)
+                else:
+                    description = 'No description.'    
+            except (RuntimeError, TypeError, NameError):
+                description = 'No description.'
+                pass
+
             try:
                 start_datetime = data['events'][event_num]['start']['local']
                 if start_datetime == '':start_datetime = "No start time info."
@@ -331,8 +338,8 @@ def CreateJSON(s,e,k):
         # "image" : list_of_lists_events[event][7], "url" : list_of_lists_events[event][4], "venue" : list_of_lists_events[event][8], "address" : list_of_lists_events[event][9]}
 
         #create an event dictionary with all the info
-        dict_event = {"icon": "assets/images/geopoint.png", "lat": list_of_lists_events[event][2], "lng": list_of_lists_events[event][3], "infobox": name}
-        list_of_events.append(dict_event)
+        dict_event = {"icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png", "lat": list_of_lists_events[event][2], "lng": list_of_lists_events[event][3], "infobox": list_of_lists_events[event][0]}
+        list_of_event_dictionaries.append(dict_event)
 
         #create the main dictionary with the info for each event
         # dict_event = {"geometry" : dict_coord, "type": "Feature", "properties" : dict_properties}
@@ -340,17 +347,18 @@ def CreateJSON(s,e,k):
         # list_of_event_dictionaries.append(dict_event)
 
         #Create final dictionary for saving to JSON
-        data_json = list_of_events
-        return data_json
+        data_json = list_of_event_dictionaries
+        
 
     #Create the final dictionary with all the events for saving to JSON
     # data_json = {"type" : "FeatureCollection", "features" : list_of_event_dictionaries}
 
     # pp.pprint(data_json)
-    # with open('trip_json_res.json', 'w') as fp: #save to JSON
-        # json.dump(data_json, fp, indent = 2)
+    with open('trip_json_res.json', 'w') as fp: #save to JSON
+        json.dump(data_json, fp, indent = 2)
 
     # save CSV file (for Google Fusion Tables or else)
     # with open('mytripevents.csv', 'w') as csvfile:
     #     writer = csv.writer(csvfile)
     #     writer.writerows(list_of_lists_events)
+    return data_json

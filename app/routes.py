@@ -43,8 +43,10 @@ def places():
             place_start = request.form.get('place_start')
             place_end = request.form.get('place_end')
             interest = request.form.get('interest')
+            dt_start = request.form.get('dt_start')
+            dt_end = request.form.get('dt_end')            
 
-            placesJSON = CreateJSON(place_start,place_end,interest)
+            placesJSON = CreateJSON(place_start,place_end,interest,dt_start,dt_end)
             # return placesJSON
             sndmap = Map(
                 identifier = "sndmap",
