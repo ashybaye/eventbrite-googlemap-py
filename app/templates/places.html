@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Specify your route and keywords</h1>
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.place_start.label }}<br>
+            {{ form.place_start(size=60) }}<br>
+            {% for error in form.place_start.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.place_end.label }}<br>
+            {{ form.place_end(size=60) }}<br>
+            {% for error in form.place_end.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+          {{ form.interest.label }}<br>
+          {{ form.interest(size=60) }}<br>
+          {% for error in form.interest.errors %}
+          <span style="color: red;">[{{ error }}]</span>
+          {% endfor %}
+      </p>        
+
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}

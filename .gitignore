@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+env/
+env*
+venv/
+dist/
+build/
+__pycache__/
+_mailinglist
+.tox/
+.cache/
+.pytest_cache/
+.idea/
+.vscode/
