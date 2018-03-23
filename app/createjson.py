@@ -288,16 +288,22 @@ def CreateJSON(s,e,k,dt_start,dt_end):
 
             try:
                 image_logo = data['events'][event_num]['logo']['url']
-                if image_logo == '' : image_logo == 'No image.'
+                if image_logo == None: image_logo = 'No image'
+
             except (RuntimeError, TypeError, NameError):
-                image_logo = 'No logo'
+                image_logo = ''
                 pass
 
             try:
-                venue_name = data['events'][event_num]['venue']['name']
-                if venue_name == '': venue_name == 'No venue name.'
+                # venue_name = ''
+                # venue_name = data['events'][event_num]['venue']['name']
+                if data['events'][event_num]['venue']['name'] != None: 
+                    venue_name = data['events'][event_num]['venue']['name']
+                else: 
+                    venue_name = 'No venue name.'
+
             except (RuntimeError, TypeError, NameError):
-                image_logo = 'No logo'
+                venue_name = 'No venue name'
                 pass
 
             try:
@@ -338,7 +344,24 @@ def CreateJSON(s,e,k,dt_start,dt_end):
         # "image" : list_of_lists_events[event][7], "url" : list_of_lists_events[event][4], "venue" : list_of_lists_events[event][8], "address" : list_of_lists_events[event][9]}
 
         #create an event dictionary with all the info
-        dict_event = {"icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png", "lat": list_of_lists_events[event][2], "lng": list_of_lists_events[event][3], "infobox": list_of_lists_events[event][0]}
+        # add image
+        infobox = '<div id="content">' + '<img src="' + list_of_lists_events[event][7] + '"/>'
+        # add title 
+        infobox += '<h5>' + list_of_lists_events[event][0] + '</h5>' 
+        # add date/time
+        infobox += '<div id="bodyContent">' + '<p><strong>' + list_of_lists_events[event][5] + ' - ' + list_of_lists_events[event][6] + '</strong><br/><br/>' 
+        # add venue name
+        infobox += 'Venue: ' + list_of_lists_events[event][8]  + '<br/>' 
+        # add address
+        infobox += 'Address : ' + list_of_lists_events[event][9] + '<br/><br/>'
+        # add description 
+        infobox += list_of_lists_events[event][1] + '<br/><br/>'
+        # add URL 
+        infobox += '<a href=">' + list_of_lists_events[event][4] + '">' + list_of_lists_events[event][4] + '</a><br/>'        
+        # add closing tags
+        infobox += '</p></div></div>'
+
+        dict_event = {"icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png", "lat": list_of_lists_events[event][2], "lng": list_of_lists_events[event][3], "infobox": infobox}
         list_of_event_dictionaries.append(dict_event)
 
         #create the main dictionary with the info for each event

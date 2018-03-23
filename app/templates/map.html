@@ -2,8 +2,55 @@
 
 {% block content %}
 
-    {{sndmap.js}}
-    <h3>Your events</h3>
-    {{sndmap.html}}
+    <h1>My events</h1>
+    <div class="row">
+        <div class="col-sm-8">
+            {% if sndmap %}
+                {{sndmap.js}}
+                {{sndmap.html}}
+            {% endif %}
+        </div>
+        <div class="col-sm-4">
+            <h4>Please add event search parameters:</h4>
+            <form action="" method="post">
+                <div class="form-group">
+                    {{ form.hidden_tag() }}
+             
+                        {{ form.place_start.label }}<br>
+                        {{ form.place_start(size=60,class_='form-control') }}<br>
+                        {% for error in form.place_start.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                 
+                        {{ form.place_end.label }}<br>
+                        {{ form.place_end(size=60,class_='form-control') }}<br>
+                        {% for error in form.place_end.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                   
+                        {{ form.interest.label }}<br>
+                        {{ form.interest(size=60,class_='form-control') }}<br>
+                        {% for error in form.interest.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    
+                        {{ form.dt_start.label }}<br>
+                        {{ form.dt_start(size=60,class_='form-control') }}<br>
+                        {% for error in form.dt_start.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                    
+                        {{ form.dt_end.label }}<br>
+                        {{ form.dt_end(size=60,class_='form-control') }}<br>
+                        {% for error in form.dt_end.errors %}
+                        <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}
+                              
 
+                    {{ form.submit(class_='btn btn-success') }}
+                </div>
+            </form>
+        </div>  
+    </div>  
+    
 {% endblock %}
