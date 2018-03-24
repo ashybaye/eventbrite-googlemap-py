@@ -11,20 +11,20 @@
                     {{ form.hidden_tag() }}
                 
                         {{ form.place_start.label(class_='col-form-label') }}
-                        {{ form.place_start(size=60,class_='form-control') }}
+                        {{ form.place_start(size=60,class_='form-control', value='Chicago') }}
                         
                         {% for error in form.place_start.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}
 
                         {{ form.place_end.label(class_='col-form-label') }}
-                        {{ form.place_end(size=60,class_='form-control') }}
+                        {{ form.place_end(size=60,class_='form-control',value='Chicago') }}
                         {% for error in form.place_end.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}
 
                         {{ form.interest.label(class_='col-form-label') }}
-                        {{ form.interest(size=60,class_='form-control') }}
+                        {{ form.interest(size=60,class_='form-control',value='music') }}
                         {% for error in form.interest.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}
@@ -47,7 +47,7 @@
         </div>  
         <div class="col-sm-8">
             <div id="loading">
-                <img src= "/static/images/loading.gif" style="width:50%, height:auto;">
+                <img src= "/static/images/loading.gif" style="width:150px; height:auto;">
             </div>
             <div id="google-map">
                 {% if sndmap %}

@@ -14,7 +14,7 @@ def index():
 @app.route('/map', methods=['GET', 'POST'])
 def places():
     form = PlacesForm()
-    if request.method == 'POST': 
+    if request.method == 'POST' and form.validate_on_submit():
         try:
             place_start = request.form.get('place_start')
             place_end = request.form.get('place_end')
@@ -26,7 +26,7 @@ def places():
             # return placesJSON
             sndmap = Map(
                 identifier = "sndmap",
-                style = "height:85%;width:auto;margin:0;",
+                style = "height:90%;width:auto;margin:0;",
                 lat = placesJSON[0]['lat'],
                 lng = placesJSON[0]['lng'],
                 markers = placesJSON,
@@ -43,7 +43,7 @@ def places():
     else:
         defaultmap = Map(
             identifier="view-side",
-            style = "height:85%;width:auto;margin:0;",
+            style = "height:90%;width:auto;margin:0;",
             lat = 40.0,
             lng = -95.0,
             zoom = 4

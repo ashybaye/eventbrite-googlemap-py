@@ -15,3 +15,5 @@ _mailinglist
 .pytest_cache/
 .idea/
 .vscode/
+trip_json_res.json
+trip_json_res.json
