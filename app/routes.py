@@ -10,17 +10,17 @@ GoogleMaps(app)
 @app.route('/index')
 def index():
     return render_template('map.html', title='Home')
-    
+
 @app.route('/map', methods=['GET', 'POST'])
 def places():
     form = PlacesForm()
-    if request.method == 'POST': 
+    if request.method == 'POST':
         try:
             place_start = request.form.get('place_start')
             place_end = request.form.get('place_end')
             interest = request.form.get('interest')
             dt_start = request.form.get('dt_start')
-            dt_end = request.form.get('dt_end')            
+            dt_end = request.form.get('dt_end')
 
             placesJSON = CreateJSON(place_start,place_end,interest,dt_start,dt_end)
             # return placesJSON
@@ -32,14 +32,14 @@ def places():
                 markers = placesJSON,
                 fit_markers_to_bounds = True
             )
-            return render_template('map.html', title='Set up the route', form=form , sndmap=sndmap) 
+            return render_template('map.html', title='Set up the route', form=form , sndmap=sndmap)
 
-            
+
         except Exception as e:
             return error.format_exception(
                 e,
                 target=self.__class__.__name__.lower(),
-                action='PUT')    
+                action='PUT')
     else:
         defaultmap = Map(
             identifier="view-side",
@@ -47,7 +47,6 @@ def places():
             lat = 40.0,
             lng = -95.0,
             zoom = 4
-        )  
+        )
         return render_template('map.html', title='Set up the route', form=form, defaultmap=defaultmap)                   
-    return render_template('map.html', title='Set up the route', form=form) 
-    
+    return render_template('map.html', title='Set up the route', form=form)
