@@ -10,6 +10,7 @@ def CreateJSON(s,e,k,dt_start,dt_end):
     """
 
     input_origin = s
+    print("Origin_Destination {}, {}: ".format (s, e) )
     input_destination = e
     keyword1 = k
     radius = 30
@@ -183,11 +184,19 @@ def CreateJSON(s,e,k,dt_start,dt_end):
     # print("The final coordinates list is: ")
     # for i, k in zip(list_lats_short3, list_lngs_short3):
     #     print(i, k)
+
+    print("The length of final coordinate list is: ", len(list_lats_short3))
+
+    if len(list_lats_short3) > 60:
+        print("The final list of coordinates is too long. Please select shorter route.\
+        Mapping events for the destination only.")
+        list_lats_short3 = list_lats_short3[-2:-1]
+        list_lngs_short3 = list_lngs_short3[-2:-1]
     """
     4. Submit the 'cleaned' locations to the Eventbright API.
     """
 
-    coord_list_length = len(list_lats_short3)
+    # coord_list_length = len(list_lats_short3)
     list_of_evbr_api_reqs = []
 
     #Form a url string with locations, keyword and dates, form a list.
@@ -231,6 +240,10 @@ def CreateJSON(s,e,k,dt_start,dt_end):
 
         # pp.pprint(data)
         length_events = int(len(data['events']))
+
+        #if no events found return False, to tell user about it
+        if length_events == 0:
+            return False
 
         #extract only the info of interest from the Eventbright results
         for event_num in range(0, length_events):
@@ -318,16 +331,6 @@ def CreateJSON(s,e,k,dt_start,dt_end):
                 print("Error: ", sys.exc_info()[0])
                 venue_address2 = 'No venue address_e.'
                 pass
-            # try:
-            #     if data['events'][event_num]['venue']['address']['localized_address_display'] != None:
-            #         venue_address2 == data['events'][event_num]['venue']['address']['localized_address_display']
-            #         print("The venue address: ", venue_address2)
-            #     else:
-            #         venue_address2 = 'No venue address_n'
-            # except (RuntimeError, TypeError, NameError):
-            #     print("Error: ", sys.exc_info()[0])
-            #     venue_address2 = 'No venue address_e.'
-            #     pass
 
             #form a list with the event's info, trace how many had missing info
             if name != 'Empty':
@@ -339,12 +342,18 @@ def CreateJSON(s,e,k,dt_start,dt_end):
             #append the list of event properties to the list of events if no duplicates are present
             if list_venue_details not in list_of_lists_events: list_of_lists_events.append(list_venue_details)
 
-    with open('evbright_results.json', 'w') as fp1: #save to JSON
-        json.dump(data, fp1, indent = 2)
+    # with open('evbright_results.json', 'w') as fp1: #save to JSON
+    #     json.dump(data, fp1, indent = 2)
 
     #check how many events were parsed into the file and how many left out because of missing details
     print("The total number of events found is: ", len(list_of_lists_events) - 1)
     print("The number of events with missing info is: ", len(events_with_missing_details))
+
+    #set limit to prevent slow response
+    if len(list_of_lists_events) > 200:
+        print("The number of events exceeds top limit (200). Please change your search parameters. \
+        The first 200 events are mapped.")
+        list_of_lists_events = list_of_lists_events[1:200]
 
     """
     5. Create a JSON file for mapping by Google Maps JavaScript.
@@ -354,13 +363,6 @@ def CreateJSON(s,e,k,dt_start,dt_end):
 
     for event in range(1, len(list_of_lists_events)): #skips the header (1st row)
         list_coord = [list_of_lists_events[event][2], list_of_lists_events[event][3]]
-        #create a subdictionary with the list of coordinates
-        # dict_coord = {"type": "Point", "coordinates" : list_coord}
-
-        #create a subdictionary with the event's properties
-        # dict_properties = {"name" : list_of_lists_events[event][0], "description" : list_of_lists_events[event][1],  \
-        # "start_datetime" : list_of_lists_events[event][5], "end_datetime" : list_of_lists_events[event][6], \
-        # "image" : list_of_lists_events[event][7], "url" : list_of_lists_events[event][4], "venue" : list_of_lists_events[event][8], "address" : list_of_lists_events[event][9]}
 
         #create an event dictionary with all the info
         # add image
@@ -383,20 +385,11 @@ def CreateJSON(s,e,k,dt_start,dt_end):
         dict_event = {"icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png", "lat": list_of_lists_events[event][2], "lng": list_of_lists_events[event][3], "infobox": infobox}
         list_of_event_dictionaries.append(dict_event)
 
-        #create the main dictionary with the info for each event
-        # dict_event = {"geometry" : dict_coord, "type": "Feature", "properties" : dict_properties}
-        # print('The appended event dictionary is:', dict_event)
-        # list_of_event_dictionaries.append(dict_event)
-
-        #Create final dictionary for saving to JSON
-        data_json = list_of_event_dictionaries
-
-
-    #Create the final dictionary with all the events for saving to JSON
-    # data_json = {"type" : "FeatureCollection", "features" : list_of_event_dictionaries}
+    data_json = list_of_event_dictionaries
 
     # pp.pprint(data_json)
-    with open('trip_json_res.json', 'w') as fp: #save to JSON
+    ##save to JSON for mapping
+    with open('trip_json_res.json', 'w') as fp:
         json.dump(data_json, fp, indent = 2)
 
     # save CSV file (for Google Fusion Tables or else)

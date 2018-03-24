@@ -1,6 +1,7 @@
 [
   {
     "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+<<<<<<< HEAD
     "lat": 41.884028,
     "lng": -87.639974,
     "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42491659%2F744673479%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C362%2C1274%2C637&s=66f3c25a70c1aa53e728cf0e39189390\"/><h5>Marc Anthony Tribute Tropical Saturday</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 19:00:00 - 2018-03-25 03:00:00</strong><br/><br/>Venue: Ovie Bar & Grill<br/>Address : 120 North Canal Street, Chicago, IL 60661<br/><br/>3/24: Latin Street Music & Dancing & Dobel Tequila present:Dinner from 7p-10p & Dancing from 9p-3a!Wear a Whit..<br/><br/><a href=\">https://www.eventbrite.com/e/marc-anthony-tribute-tropical-saturday-tickets-44383430034?aff=ebapi\">https://www.eventbrite.com/e/marc-anthony-tribute-tropical-saturday-tickets-44383430034?aff=ebapi</a><br/></p></div></div>"
@@ -544,5 +545,88 @@
     "lat": 40.6877242,
     "lng": -73.8209377,
     "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41810070%2F212297417662%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C131%2C1274%2C637&s=e0b2079fc78c293b38e1c0da3f7cadbc\"/><h5>ELEVATE SATURDAYS</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 21:00:00 - 2018-03-25 03:30:00</strong><br/><br/>Venue: Elevate Skylounge<br/>Address : 123-07 Liberty Avenue, Queens, NY 11419<br/><br/>ELEVATE SATURDAYS THE #1DANCE PARTY IN QUEENS. -BEST PACKAGES -NEAT AND TRENDY DRESSCODE -21+ -BIRTHDAY PACKAG..<br/><br/><a href=\">https://www.eventbrite.com/e/elevate-saturdays-tickets-41969657375?aff=ebapi\">https://www.eventbrite.com/e/elevate-saturdays-tickets-41969657375?aff=ebapi</a><br/></p></div></div>"
+=======
+    "lat": 32.7152706,
+    "lng": -117.1558967,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40777421%2F222510980617%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C2160%2C1080&s=d8183ebeed76786b418c5b58275df354\"/><h5>Calvin Berger- A Musical</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 19:00:00 - 2018-03-24 21:00:00</strong><br/><br/>Venue: Tenth Avenue Arts Center<br/>Address : 930 Tenth Avenue, San Diego, CA 92101<br/><br/>Calvin Berger, a high school senior, is smitten by Rosanna but because of his appearance, particularly the siz..<br/><br/><a href=\">https://www.eventbrite.com/e/calvin-berger-a-musical-tickets-43073566196?aff=ebapi\">https://www.eventbrite.com/e/calvin-berger-a-musical-tickets-43073566196?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.7965341,
+    "lng": -117.2564973,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41489845%2F168935939256%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C1800%2C900&s=8114a4de90bf41ccf0661f77f582bde5\"/><h5>Zaboomba | Soul Ablaze</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 21:00:00 - 2018-03-25 01:00:00</strong><br/><br/>Venue: 710 Beach Club<br/>Address : 710 Garnet Avenue, San Diego, CA 92109<br/><br/>Saturday March 24 Zaboomba at 710 Beach Club in Pacific Beach! Special guests Soul Ablaze! The Zaboomba beat m..<br/><br/><a href=\">https://www.eventbrite.com/e/zaboomba-soul-ablaze-tickets-43632474907?aff=ebapi\">https://www.eventbrite.com/e/zaboomba-soul-ablaze-tickets-43632474907?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.8308454,
+    "lng": -117.2760279,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41548945%2F147737272100%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C27%2C718%2C359&s=c7a594159b0deb636db1fc341d7f24d0\"/><h5>KatieCat & Cain Dance Party</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 18:30:00 - 2018-03-24 21:30:00</strong><br/><br/>Venue: La Jolla Community Center<br/>Address : 6811 La Jolla Boulevard, San Diego, CA 92037<br/><br/>KatieCat & John Cain live in South America and have been on a month long musical performance tour of the USA, ..<br/><br/><a href=\">https://www.eventbrite.com/e/katiecat-cain-dance-party-tickets-43677838591?aff=ebapi\">https://www.eventbrite.com/e/katiecat-cain-dance-party-tickets-43677838591?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.8087484,
+    "lng": -117.257702,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41712635%2F240408360400%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C53%2C900%2C450&s=0fd09375ce0c785b0f0265fe7e9ab666\"/><h5>Salsa Dance Party at Cafe Bar Europa!</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 21:00:00 - 2018-03-24 23:30:00</strong><br/><br/>Venue: Cafe Bar Europa The Turquoise<br/>Address : 873 Turquoise Street, San Diego, CA 92109<br/><br/>Salsa & Timba!! and Rueda de Casino, it's a Cuban Square Dance! It's a timba night with some son, Cuban chacha..<br/><br/><a href=\">https://www.eventbrite.com/e/salsa-dance-party-at-cafe-bar-europa-tickets-43819298702?aff=ebapi\">https://www.eventbrite.com/e/salsa-dance-party-at-cafe-bar-europa-tickets-43819298702?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.8087484,
+    "lng": -117.257702,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42183645%2F240408360400%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C45%2C852%2C426&s=be084fb3ce248c7e9874d99be6ff1f18\"/><h5>Big Boss Bubaleh at Cafe Bar Europa!</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 18:00:00 - 2018-03-24 21:00:00</strong><br/><br/>Venue: Cafe Bar Europa The Turquoise<br/>Address : 873 Turquoise Street, San Diego, CA 92109<br/><br/>Way into the windy halls of human emotions, Big Boss Bubeleh holds a light-as it is words, music, music and wo..<br/><br/><a href=\">https://www.eventbrite.com/e/big-boss-bubaleh-at-cafe-bar-europa-tickets-44170138072?aff=ebapi\">https://www.eventbrite.com/e/big-boss-bubaleh-at-cafe-bar-europa-tickets-44170138072?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.6997999,
+    "lng": -117.1452024,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42128738%2F189052735962%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C72%2C878%2C439&s=e3d47493b812dbf79e5b9225fca1d633\"/><h5>Windows Into A Forsaken Mind: Solo Art by ..</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 18:00:00 - 2018-03-24 22:00:00</strong><br/><br/>Venue: Iron Fist Brewing San Diego<br/>Address : 1985 National Avenue #1132, San Diego, CA 92113<br/><br/>First solo art exhibition by artist BetsOne. Life & Death. Love & Hate. Music & Conversations. Exhibited from ..<br/><br/><a href=\">https://www.eventbrite.com/e/windows-into-a-forsaken-mind-solo-art-by-betsoneart-tickets-44134926754?aff=ebapi\">https://www.eventbrite.com/e/windows-into-a-forsaken-mind-solo-art-by-betsoneart-tickets-44134926754?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.8087484,
+    "lng": -117.257702,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41123536%2F240408360400%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C19%2C960%2C480&s=2cfc77b1231281beb2995110d3b2afda\"/><h5>Brazilian Bossa Nova with Mario Marauak</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 19:00:00 - 2018-03-24 22:00:00</strong><br/><br/>Venue: Cafe Bar Europa The Turquoise<br/>Address : 873 Turquoise Street, San Diego, CA 92109<br/><br/>MARIO MARAUAK, a singer, songwriter and guitar player, was born in Salvador, Bahia, Brazil.Listening to his mu..<br/><br/><a href=\">https://www.eventbrite.com/e/brazilian-bossa-nova-with-mario-marauak-tickets-42300778768?aff=ebapi\">https://www.eventbrite.com/e/brazilian-bossa-nova-with-mario-marauak-tickets-42300778768?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.8087484,
+    "lng": -117.257702,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40416551%2F240408360400%2F1%2Foriginal.jpg?h=200&w=450&rect=53%2C0%2C758%2C379&s=e973243851d803e9b7479c990ce3eda4\"/><h5>You Tube Party!</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 22:00:00 - 2018-03-25 02:00:00</strong><br/><br/>Venue: Cafe Bar Europa, The Turquoise<br/>Address : 873 Turquoise Street, San Diego, CA 92109<br/><br/>After de bands finish to play we have a Youtube Pary that consists in cast your favorite music and videos to t..<br/><br/><a href=\">https://www.eventbrite.com/e/you-tube-party-tickets-42794787361?aff=ebapi\">https://www.eventbrite.com/e/you-tube-party-tickets-42794787361?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.7266774,
+    "lng": -117.1979286,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42022021%2F231940257734%2F1%2Foriginal.jpg?h=200&w=450&rect=9%2C0%2C720%2C360&s=41cc05539c6c2d2d6cf4b76f5dc566e4\"/><h5>Persian Nowruz 1397 Celebration</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 18:30:00 - 2018-03-24 23:30:00</strong><br/><br/>Venue: Sheraton San Diego Hotel & Marina<br/>Address : 1380 Harbor Island Dr., San Diego, CA, CA 92101<br/><br/>Happy Nowruz 1397Nowruz on the evening of March 24. >>>> $70 Member Rate after March 1st ($50 Discount): Profe..<br/><br/><a href=\">https://www.eventbrite.com/e/persian-nowruz-1397-celebration-tickets-44055826162?aff=ebapi\">https://www.eventbrite.com/e/persian-nowruz-1397-celebration-tickets-44055826162?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.7116571,
+    "lng": -117.1594319,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F38697055%2F47317233205%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C80%2C960%2C480&s=b1b1f46ecbaf0bd0e72752b0c2214cbc\"/><h5>***GenerationXIX ~ SIDEBAR Saturdays~ FREE..</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 21:00:00 - 2018-03-25 02:00:00</strong><br/><br/>Venue: Side Bar<br/>Address : 536 Market Street, San Diego, CA 92101<br/><br/>Searching for a night out on the town? Looking for a fun atmosphere with great music, good looking people and ..<br/><br/><a href=\">https://www.eventbrite.com/e/generationxix-sidebar-saturdays-free-guestlist-tickets-42951600393?aff=ebapi\">https://www.eventbrite.com/e/generationxix-sidebar-saturdays-free-guestlist-tickets-42951600393?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.8318241,
+    "lng": -117.1373567,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42221303%2F130504139727%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C533%2C1826%2C913&s=fcbd325f9a22c81956a1c5af92321db7\"/><h5>Abby Roberge & Nick Callas Headline the Co..</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 19:00:00 - 2018-03-24 23:30:00</strong><br/><br/>Venue: The Comedy Palace<br/>Address : 8878 Clairemont Mesa Boulevard, San Diego, CA 92123<br/><br/>Abby Roberge and Nick Callas are two comedians and roomates in Los Angeles. This is the first stop on thier we..<br/><br/><a href=\">https://www.eventbrite.com/e/abby-roberge-nick-callas-headline-the-comedy-palace-tickets-44193893124?aff=ebapi\">https://www.eventbrite.com/e/abby-roberge-nick-callas-headline-the-comedy-palace-tickets-44193893124?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.7155904,
+    "lng": -117.1590877,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40999547%2F192548616015%2F1%2Foriginal.jpg?h=200&w=450&rect=120%2C0%2C400%2C200&s=9e98db885b926dc97032b2f6bd452cd4\"/><h5>CROOKED</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 22:00:00 - 2018-03-25 02:00:00</strong><br/><br/>Venue: Parq Restaurant & Nightclub<br/>Address : 615 Broadway, San Diego, CA 92101<br/><br/>Parq is downtown San Diego's hottest nightclub. Parq features a 10,000 square feet main room, the largest HD L..<br/><br/><a href=\">https://www.eventbrite.com/e/crooked-tickets-43215106547?aff=ebapi\">https://www.eventbrite.com/e/crooked-tickets-43215106547?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.7445116,
+    "lng": -117.1881169,
+    "infobox": "<div id=\"content\"><img src=\"https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42590585%2F211089715513%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C60%2C1920%2C960&s=cb7047c3820fdfa53c5ae98906f9db92\"/><h5>UBB Presents: Oliver Dollar</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 22:00:00 - 2018-03-25 04:00:00</strong><br/><br/>Venue: Spin Nightclub<br/>Address : 2028 Hancock Street, San Diego, CA 92110<br/><br/>United By Bass cordially invites you to join us at Spin Nightclub on Saturday, March 24th for another exciting..<br/><br/><a href=\">https://www.eventbrite.com/e/ubb-presents-oliver-dollar-tickets-43036234536?aff=ebapi\">https://www.eventbrite.com/e/ubb-presents-oliver-dollar-tickets-43036234536?aff=ebapi</a><br/></p></div></div>"
+  },
+  {
+    "icon": "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    "lat": 32.7312503,
+    "lng": -117.1482327,
+    "infobox": "<div id=\"content\"><img src=\"\"/><h5>Xpressing Your Legacy</h5><div id=\"bodyContent\"><p><strong>Date: 2018-03-24 18:30:00 - 2018-03-24 20:30:00</strong><br/><br/>Venue: San Diego History Center<br/>Address : 1649 El Prado, San Diego, CA 92101<br/><br/>Join us for a collaborative event between Black Xpression, the San Diego African American Museum of Fine Art (..<br/><br/><a href=\">https://www.eventbrite.com/e/xpressing-your-legacy-tickets-44160740965?aff=ebapi\">https://www.eventbrite.com/e/xpressing-your-legacy-tickets-44160740965?aff=ebapi</a><br/></p></div></div>"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
   }
 ]

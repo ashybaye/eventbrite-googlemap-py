@@ -1,5 +1,6 @@
 {
   "pagination": {
+<<<<<<< HEAD
     "object_count": 173,
     "page_number": 1,
     "page_size": 50,
@@ -18,20 +19,39 @@
       },
       "id": "41320098527",
       "url": "https://www.eventbrite.com/e/blank-the-musical-tickets-41320098527?aff=ebapi",
+=======
+    "object_count": 19,
+    "page_number": 1,
+    "page_size": 50,
+    "page_count": 1,
+    "has_more_items": false
+  },
+  "events": [
+    {
+      "name": {
+        "text": "Turkish Music and Dance Night",
+        "html": "Turkish Music and Dance Night"
+      },
+      "description": {
+        "text": "Turkish Student Association at NC State is organizing Turkish Music and Dance Night on Saturday, March 31st at Talley Student Union - BR Mountain Ballroom, 6pm.\nThere will be live music bands, belly dancers, traditional dance group, Dj, authentic dinner , refreshments, competitions, and raffle.\nOur biggest prizes for raffle are 2 x round trip flight tickets from USA to Turkey with Turkish Airlines. Raffle tickets will be available on site.\nAdmission is $10 for adults, $7 for students and $5 for Children (age 4+)- tickets are nonrefundable.\nAny concern or question please contact with turkishassociation@ncsu.edu",
+        "html": "<P>Turkish Student Association at NC State is organizing Turkish Music and Dance Night on Saturday, March 31st at Talley Student Union - BR Mountain Ballroom, 6pm.</P>\n<P>There will be live music bands, belly dancers, traditional dance group, Dj, authentic dinner , refreshments, competitions, and raffle.</P>\n<P>Our biggest prizes for raffle are 2 x round trip flight tickets from USA to Turkey with Turkish Airlines. Raffle tickets will be available on site.</P>\n<P>Admission is $10 for adults, $7 for students and $5 for Children (age 4+)- tickets are nonrefundable.</P>\n<P>Any concern or question please contact with turkishassociation@ncsu.edu</P>"
+      },
+      "id": "44189756752",
+      "url": "https://www.eventbrite.com/e/turkish-music-and-dance-night-tickets-44189756752?aff=ebapi",
       "start": {
         "timezone": "America/New_York",
-        "local": "2018-03-24T20:00:00",
-        "utc": "2018-03-25T00:00:00Z"
+        "local": "2018-03-31T18:00:00",
+        "utc": "2018-03-31T22:00:00Z"
       },
       "end": {
         "timezone": "America/New_York",
-        "local": "2018-03-24T21:30:00",
-        "utc": "2018-03-25T01:30:00Z"
+        "local": "2018-03-31T23:00:00",
+        "utc": "2018-04-01T03:00:00Z"
       },
-      "organization_id": "208186615073",
-      "created": "2017-12-14T20:26:21Z",
-      "changed": "2018-03-24T20:04:04Z",
-      "capacity": 62,
+      "organization_id": "230151194345",
+      "created": "2018-03-14T16:00:05Z",
+      "changed": "2018-03-14T16:00:35Z",
+      "capacity": 300,
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -44,12 +64,797 @@
       "locale": "en_US",
       "is_locked": false,
       "privacy_setting": "unlocked",
-      "is_series": true,
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": true,
+      "version": "3.0.0",
+      "logo_id": "42213881",
+      "organizer_id": "15413879124",
+      "venue_id": "23744937",
+      "category_id": "111",
+      "subcategory_id": "11008",
+      "format_id": "6",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/44189756752/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 456,
+          "height": 228
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42213881%2F230151194345%2F1%2Foriginal.jpg?s=e2892bd9571155bf79d19fe349c9f0db",
+          "width": 456,
+          "height": 639
+        },
+        "id": "42213881",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42213881%2F230151194345%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C456%2C228&s=1b8a73198683cfbe231bdc6cdd786bf2",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "Talley Student Union - BR Mountain Ballroom, 27606",
+          "address_2": null,
+          "city": "Raleigh",
+          "region": "North Carolina",
+          "postal_code": "27606",
+          "country": "US",
+          "latitude": "35.7838484",
+          "longitude": "-78.67093920000002",
+          "localized_address_display": "Talley Student Union - BR Mountain Ballroom, 27606, Raleigh, North Carolina 27606",
+          "localized_area_display": "Raleigh, North Carolina",
+          "localized_multi_line_address_display": [
+            "Talley Student Union - BR Mountain Ballroom, 27606",
+            "Raleigh, North Carolina 27606"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23744937/",
+        "id": "23744937",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "TalleTalley Student Union - BR Mountain Ballroom, 27606",
+        "latitude": "35.7838484",
+        "longitude": "-78.67093920000002"
+      }
+    },
+    {
+      "name": {
+        "text": "Live Country Music with Silver Wings!",
+        "html": "Live Country Music with Silver Wings!"
+      },
+      "description": {
+        "text": "\nSilver Wings at Comedy Zone of Clayton March 30, 2018\n\n\n\n\n\nAdvanced tickets $10, $15 Day of Show\n\n\n\nShowtime 8PMDoors Open 7PM\nBase ticket pices Do not include taxes and fees. 2 item minimumQuestions, call BOX OFFICE AT 919-243-2547\n\n\n\n\n\n\n\n\n\n\nAbout Silver Wings\n\n\nSilver Wings is a country band based out of Durham, NC. They play a heavy dose of traditional country music seasoned with some classic rock, spice it up with a few beach tunes, and even throw in some Motown sounds to keep things interesting. Come out to hear some of the tunes you were raised on!\n\n\n\n",
+        "html": "<DIV>\n<DIV CLASS=\"_1mf _1mj\"><SPAN>Silver Wings at Comedy Zone of Clayton March 30, 2018</SPAN></DIV>\n</DIV>\n<DIV>\n<DIV CLASS=\"_1mf _1mj\"><SPAN><BR></SPAN></DIV>\n</DIV>\n<DIV>\n<DIV CLASS=\"_1mf _1mj\"><SPAN>Advanced tickets $10, $15 Day of Show</SPAN></DIV>\n<DIV CLASS=\"_1mf _1mj\"><BR></DIV>\n<DIV CLASS=\"_1mf _1mj\">\n<DIV>\n<DIV CLASS=\"_1mf _1mj\"><SPAN><SPAN>Showtime 8PM</SPAN><BR><SPAN>Doors Open 7PM</SPAN></SPAN></DIV>\n<DIV CLASS=\"_1mf _1mj\"><SPAN><BR><BR><SPAN>Base ticket pices Do not include taxes and fees. 2 item minimum</SPAN><BR><BR><SPAN>Questions, call BOX OFFICE AT 919-243-2547</SPAN></SPAN></DIV>\n</DIV>\n</DIV>\n</DIV>\n<DIV>\n<DIV CLASS=\"_1mf _1mj\"><BR></DIV>\n</DIV>\n<DIV>\n<DIV CLASS=\"_1mf _1mj\"><SPAN><BR></SPAN></DIV>\n</DIV>\n<DIV>\n<DIV CLASS=\"_1mf _1mj\"><SPAN>About Silver Wings</SPAN></DIV>\n</DIV>\n<DIV>\n<DIV CLASS=\"_1mf _1mj\"><SPAN>Silver Wings is a country band based out of Durham, NC. They play a heavy dose of traditional country music seasoned with some classic rock, spice it up with a few beach tunes, and even throw in some Motown sounds to keep things interesting. Come out to hear some of the tunes you were raised on!</SPAN></DIV>\n<DIV CLASS=\"_1mf _1mj\"><BR></DIV>\n<DIV CLASS=\"_1mf _1mj\"><BR></DIV>\n<DIV CLASS=\"_1mf _1mj\"><BR></DIV>\n</DIV>"
+      },
+      "id": "43750909147",
+      "url": "https://www.eventbrite.com/e/live-country-music-with-silver-wings-tickets-43750909147?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-30T20:00:00",
+        "utc": "2018-03-31T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-30T23:00:00",
+        "utc": "2018-03-31T03:00:00Z"
+      },
+      "organization_id": "198140334958",
+      "created": "2018-03-02T15:35:12Z",
+      "changed": "2018-03-02T15:36:02Z",
+      "capacity": 150,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
       "is_series_parent": false,
       "is_reserved_seating": false,
       "source": "create_2.0",
       "is_free": false,
       "version": "3.0.0",
+      "logo_id": "41636396",
+      "organizer_id": "12607415439",
+      "venue_id": "18143933",
+      "category_id": "103",
+      "subcategory_id": null,
+      "format_id": "6",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/43750909147/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 53
+          },
+          "width": 794,
+          "height": 397
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41636396%2F198140334958%2F1%2Foriginal.jpg?s=d2814ba89c244247e6736afdd242493b",
+          "width": 794,
+          "height": 615
+        },
+        "id": "41636396",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41636396%2F198140334958%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C53%2C794%2C397&s=54904cee0b131ef80cf8b444f83ffb07",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "8928 U.S. 70 Business",
+          "address_2": null,
+          "city": "Clayton",
+          "region": "NC",
+          "postal_code": "27520",
+          "country": "US",
+          "latitude": "35.6278733",
+          "longitude": "-78.42876360000002",
+          "localized_address_display": "8928 U.S. 70 Business, Clayton, NC 27520",
+          "localized_area_display": "Clayton, NC",
+          "localized_multi_line_address_display": [
+            "8928 U.S. 70 Business",
+            "Clayton, NC 27520"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/18143933/",
+        "id": "18143933",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "The Comedy Zone Clayton (formerly Laugh Out Loud Comedy Club)",
+        "latitude": "35.6278733",
+        "longitude": "-78.42876360000002"
+      }
+    },
+    {
+      "name": {
+        "text": "SIP, TRAP PAINT PARTY WITH DJALLNITE",
+        "html": "SIP, TRAP PAINT PARTY WITH DJALLNITE"
+      },
+      "description": {
+        "text": "OUR DAUGHTERS SALON\u00a0 IS DOING IT AGAIN.\u00a0 JOIN US WITH DJALLNITE\u00a0 AS WE PAINT AND SIP TO SOME MUSIC.\u00a0 WE CHALLENGE YOU TO SIP AND PAINT WITHIN THE LINES.\u00a0 FINGER FOOD WILL BE PROVIDED. YOU ARE RESPONSIBLE FOR YOUR OWN SIPS!",
+        "html": "<P>OUR DAUGHTERS SALON\u00a0 IS DOING IT AGAIN.\u00a0 JOIN US WITH DJALLNITE\u00a0 AS WE PAINT AND SIP TO SOME MUSIC.\u00a0 WE CHALLENGE YOU TO SIP AND PAINT WITHIN THE LINES.\u00a0 FINGER FOOD WILL BE PROVIDED. YOU ARE RESPONSIBLE FOR YOUR OWN SIPS!</P>"
+      },
+      "id": "42807598680",
+      "url": "https://www.eventbrite.com/e/sip-trap-paint-party-with-djallnite-tickets-42807598680?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T20:00:00",
+        "utc": "2018-03-25T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T22:00:00",
+        "utc": "2018-03-25T02:00:00Z"
+      },
+      "organization_id": "81296299267",
+      "created": "2018-02-03T02:06:43Z",
+      "changed": "2018-03-19T17:27:03Z",
+      "capacity": 20,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "40513496",
+      "organizer_id": "14841943404",
+      "venue_id": "23143840",
+      "category_id": "103",
+      "subcategory_id": null,
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/42807598680/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 18,
+            "y": 104
+          },
+          "width": 1060,
+          "height": 530
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40513496%2F81296299267%2F1%2Foriginal.jpg?s=c9bb86aa11850d6a8d898ce949d6adf8",
+          "width": 1080,
+          "height": 1920
+        },
+        "id": "40513496",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40513496%2F81296299267%2F1%2Foriginal.jpg?h=200&w=450&rect=18%2C104%2C1060%2C530&s=ba4d6b1155046124151c97fa98a3b0ca",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": " 4900 NC, HWY 55 #190, DURHAM",
+          "address_2": null,
+          "city": "Durham",
+          "region": "NC",
+          "postal_code": "27713",
+          "country": "US",
+          "latitude": "35.8992247",
+          "longitude": "-78.8985816",
+          "localized_address_display": " 4900 NC, HWY 55 #190, DURHAM, Durham, NC 27713",
+          "localized_area_display": "Durham, NC",
+          "localized_multi_line_address_display": [
+            " 4900 NC, HWY 55 #190, DURHAM",
+            "Durham, NC 27713"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23143840/",
+        "id": "23143840",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Our Daughters Salon",
+        "latitude": "35.8992247",
+        "longitude": "-78.8985816"
+      }
+    },
+    {
+      "name": {
+        "text": "Clever Measures/ Smoke From All The Friction/ Retro Candy",
+        "html": "Clever Measures/ Smoke From All The Friction/ Retro Candy"
+      },
+      "description": {
+        "text": "Come on out to Deep South for a Saturday night of fantastic local music! On the line-up, we have.....Smoke From All The Friction blends traditional and underground cultures to create a fusion of dark pop, rock, and indie electronic that grabs listeners with both a sense of familiarity and a striking curiosity. Inspired by the ideas of tension and friction, they seek to explore what happens when we venture outside ourselves, past the abstract social constructs that create barriers between us. Instead of simply creating a musical performance for mere entertainment, they inspire a deeper, thought-provoking appreciation between the audience and the music itself.\u00a0Clever Measures is an exciting sonic concoction of Alt Rock, Pop Punk, and Classic Rock. From the songwriting sensibilities that make today's pop rock so catchy, to the infectiously engaging high energy Pop Punk of the 90's and 2000's, all the way to the guitar virtuosity that has given classic rock the staying power to remain ever present on the radio and in our souls.\u00a0Nothing hits your ears sweeter than Retro Candy. Take a trip to the past, let your hair down, have a sweet time. With a great blend of new music and nostalgic sounds, Retro Candy is sure to show you a great time!",
+        "html": "<P><SPAN>Come on out to Deep South for a Saturday night of fantastic local music! On the line-up, we have.....</SPAN><BR><BR><SPAN>Smoke From All The Friction blends traditional and underground cultures to create a fusion of dark pop, rock, and indie electronic that grabs listeners with both a sense of familiarity and a striking curiosity. Inspired by the ideas of tension and friction, they seek to explore what happens when we venture outside ourselves, past the abstract social constructs that create barriers between us. Instead of simply creating a musical performance for mere entertainment, they inspire a deeper, thought-provoking appreciation between the audience and the music itself.\u00a0</SPAN><BR><BR><SPAN>Clever Measures is an exciting sonic concoction of Alt Rock, Pop Punk, and Classic Rock. From the songwriting sensibilities that make today's pop rock so catchy, to the infectiously engaging high energy Pop Punk of the 90's and 2000's, all the way to the guitar virtuosity that has given classic rock the staying power to remain ever present on the radio and in our souls.\u00a0</SPAN><BR><BR><SPAN>Nothing hits your ears sweeter than Retro Candy. Take a trip to the past, let your hair down, have a sweet time. With a great blend of new music and nostalgic sounds, Retro Candy is sure to show you a great time!</SPAN></P>"
+      },
+      "id": "43798037108",
+      "url": "https://www.eventbrite.com/e/clever-measures-smoke-from-all-the-friction-retro-candy-tickets-43798037108?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T21:00:00",
+        "utc": "2018-03-25T01:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-25T00:00:00",
+        "utc": "2018-03-25T04:00:00Z"
+      },
+      "organization_id": "247153951300",
+      "created": "2018-03-03T22:53:44Z",
+      "changed": "2018-03-03T22:53:46Z",
+      "capacity": 300,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": true,
+      "version": "3.0.0",
+      "logo_id": "41686171",
+      "organizer_id": "16967256177",
+      "venue_id": "23564002",
+      "category_id": "103",
+      "subcategory_id": "3009",
+      "format_id": "6",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/43798037108/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 60
+          },
+          "width": 1920,
+          "height": 960
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41686171%2F247153951300%2F1%2Foriginal.jpg?s=a84bcc871502a3370ce7611172eea2ba",
+          "width": 1920,
+          "height": 1080
+        },
+        "id": "41686171",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41686171%2F247153951300%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C60%2C1920%2C960&s=a5753fd8f36d97b70fc3c4d3b65fe0a1",
+        "aspect_ratio": "2",
+        "edge_color": "#a6b6cf",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "430 South Dawson Street",
+          "address_2": null,
+          "city": "Raleigh",
+          "region": "NC",
+          "postal_code": "27601",
+          "country": "US",
+          "latitude": "35.774574",
+          "longitude": "-78.64392859999998",
+          "localized_address_display": "430 South Dawson Street, Raleigh, NC 27601",
+          "localized_area_display": "Raleigh, NC",
+          "localized_multi_line_address_display": [
+            "430 South Dawson Street",
+            "Raleigh, NC 27601"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23564002/",
+        "id": "23564002",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Deep South the Bar",
+        "latitude": "35.774574",
+        "longitude": "-78.64392859999998"
+      }
+    },
+    {
+      "name": {
+        "text": "Ain't Misbehavin'",
+        "html": "Ain&#39;t Misbehavin&#39;"
+      },
+      "description": {
+        "text": "The inimitable Thomas Waller rose to international fame during the Golden Age of the Cotton Club and that new beat, swing music. Although not quite a biography, Ain't Misbehavin' evokes the delightful humor and infectious energy of this American original as a versatile cast struts, strums and sings the songs that he made famous in a career that ranged from uptown clubs to downtown Tin Pan Alley to Hollywood and concert stages in the U.S., Canada and Europe.\u00a0",
+        "html": "<P><SPAN>The inimitable Thomas Waller rose to international fame during the Golden Age of the Cotton Club and that new beat, swing music. Although not quite a biography, Ain't Misbehavin' evokes the delightful humor and infectious energy of this American original as a versatile cast struts, strums and sings the songs that he made famous in a career that ranged from uptown clubs to downtown Tin Pan Alley to Hollywood and concert stages in the U.S., Canada and Europe.\u00a0</SPAN></P>"
+      },
+      "id": "44066169098",
+      "url": "https://www.eventbrite.com/e/aint-misbehavin-tickets-44066169098?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T20:00:00",
+        "utc": "2018-03-25T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T23:00:00",
+        "utc": "2018-03-25T03:00:00Z"
+      },
+      "organization_id": "31634906007",
+      "created": "2018-03-10T21:19:03Z",
+      "changed": "2018-03-17T13:50:28Z",
+      "capacity": 16,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "42034886",
+      "organizer_id": "6451163233",
+      "venue_id": "22890837",
+      "category_id": "105",
+      "subcategory_id": "5002",
+      "format_id": "6",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/44066169098/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 89
+          },
+          "width": 694,
+          "height": 347
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42034886%2F31634906007%2F1%2Foriginal.jpg?s=f005e6d7e0a02693271b1a471d45f900",
+          "width": 695,
+          "height": 695
+        },
+        "id": "42034886",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42034886%2F31634906007%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C89%2C694%2C347&s=3ec20db084353f3579a44152e95dc5e2",
+        "aspect_ratio": "2",
+        "edge_color": "#e4a812",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "7713-51 Lead Mine Road",
+          "address_2": null,
+          "city": "Raleigh",
+          "region": "NC",
+          "postal_code": "27615",
+          "country": "US",
+          "latitude": "35.8861444",
+          "longitude": "-78.66012649999999",
+          "localized_address_display": "7713-51 Lead Mine Road, Raleigh, NC 27615",
+          "localized_area_display": "Raleigh, NC",
+          "localized_multi_line_address_display": [
+            "7713-51 Lead Mine Road",
+            "Raleigh, NC 27615"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/22890837/",
+        "id": "22890837",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "North Raleigh Arts & Creative Theatre",
+        "latitude": "35.8861444",
+        "longitude": "-78.66012649999999"
+      }
+    },
+    {
+      "name": {
+        "text": "LOTUS FLOWER SESSIONS",
+        "html": "LOTUS FLOWER SESSIONS"
+      },
+      "description": {
+        "text": "I invite you all the THE VIBE CLUB where I will be hosting an intimate concert series. The attire is comfortable. Feel free to bring bean bags, pillows, blankets, your favorite teddy - whatever puts you in that chill mood when you are in your room with your headphones in, favorite songs bumping. I will have incense burning as I perform for you some of my favorite joints. It will be a night of Soul Music. Buy your tickets now, as spots are limited!",
+        "html": "<P>I invite you all the THE VIBE CLUB where I will be hosting an intimate concert series. The attire is comfortable. Feel free to bring bean bags, pillows, blankets, your favorite teddy - whatever puts you in that chill mood when you are in your room with your headphones in, favorite songs bumping. I will have incense burning as I perform for you some of my favorite joints. It will be a night of Soul Music. Buy your tickets now, as spots are limited!</P>"
+      },
+      "id": "43750996408",
+      "url": "https://www.eventbrite.com/e/lotus-flower-sessions-tickets-43750996408?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T20:00:00",
+        "utc": "2018-03-25T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T21:00:00",
+        "utc": "2018-03-25T01:00:00Z"
+      },
+      "organization_id": "246983873028",
+      "created": "2018-03-02T15:38:22Z",
+      "changed": "2018-03-24T18:56:41Z",
+      "capacity": 20,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "41636708",
+      "organizer_id": "16953778489",
+      "venue_id": "23546981",
+      "category_id": "103",
+      "subcategory_id": "3009",
+      "format_id": "6",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/43750996408/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 65
+          },
+          "width": 500,
+          "height": 250
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41636708%2F246983873028%2F1%2Foriginal.jpg?s=6c3eda5c2cad22499a31215ee5aa3530",
+          "width": 500,
+          "height": 333
+        },
+        "id": "41636708",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41636708%2F246983873028%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C65%2C500%2C250&s=0d15a916304a2a41ae88848bc2ff20c7",
+        "aspect_ratio": "2",
+        "edge_color": "#8a7e72",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "4411 Emerald Forest Drive",
+          "address_2": "Apt G",
+          "city": "Durham",
+          "region": "NC",
+          "postal_code": "27713",
+          "country": "US",
+          "latitude": "35.9051983",
+          "longitude": "-78.90498909999997",
+          "localized_address_display": "4411 Emerald Forest Drive Apt G, Durham, NC 27713",
+          "localized_area_display": "Durham, NC",
+          "localized_multi_line_address_display": [
+            "4411 Emerald Forest Drive",
+            "Apt G",
+            "Durham, NC 27713"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23546981/",
+        "id": "23546981",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "The Vibe Club",
+        "latitude": "35.9051983",
+        "longitude": "-78.90498909999997"
+      }
+    },
+    {
+      "name": {
+        "text": "GOSPEL Showcase",
+        "html": "GOSPEL Showcase"
+      },
+      "description": {
+        "text": "Gospel Showcase Sunday,March 25, 2018\nDoors open at 6pm, show starts at 7pm\nAdvance $15\nAt the door $20\n\n2 Item minimum\n\nSolomon Headen has a voice for the youth. He is a gifted singer/songwriter and producer who strives to bridge the gap between generations with his soulful yet modern, contemporary sound. His purpose is to share the love of Christ through his music.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "html": "<P>Gospel Showcase Sunday,March 25, 2018</P>\n<P>Doors open at 6pm, show starts at 7pm</P>\n<P>Advance $15</P>\n<P>At the door $20</P>\n<P><BR></P>\n<P>2 Item minimum</P>\n<DIV>\n<DIV><STRONG>Solomon Headen has a voice for the youth. He is a gifted singer/songwriter and producer who strives to bridge the gap between generations with his soulful yet modern, contemporary sound. His purpose is to share the love of Christ through his music.</STRONG></DIV>\n<DIV CLASS=\"m_7706329515168428525signature\">\n<DIV>\n<DIV>\n<DIV>\n<DIV><SPAN><SPAN></SPAN></SPAN>\n<DIV><BR></DIV>\n</DIV>\n</DIV>\n</DIV>\n</DIV>\n</DIV>\n</DIV>\n<P><BR></P>\n<DIV>\n<DIV><STRONG><BR></STRONG></DIV>\n</DIV>\n<P><BR></P>\n<P><BR></P>"
+      },
+      "id": "43936290628",
+      "url": "https://www.eventbrite.com/e/gospel-showcase-tickets-43936290628?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-25T19:00:00",
+        "utc": "2018-03-25T23:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-25T22:00:00",
+        "utc": "2018-03-26T02:00:00Z"
+      },
+      "organization_id": "198140334958",
+      "created": "2018-03-07T16:32:33Z",
+      "changed": "2018-03-23T13:48:14Z",
+      "capacity": 150,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "41866593",
+      "organizer_id": "12607415439",
+      "venue_id": "18143933",
+      "category_id": "103",
+      "subcategory_id": "3016",
+      "format_id": "6",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/43936290628/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 186
+          },
+          "width": 816,
+          "height": 408
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41866593%2F198140334958%2F1%2Foriginal.jpg?s=084d25f792c0bc372f40d0ab2a62307f",
+          "width": 816,
+          "height": 1056
+        },
+        "id": "41866593",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41866593%2F198140334958%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C186%2C816%2C408&s=100c013f094629af183420c4a779dfa0",
+        "aspect_ratio": "2",
+        "edge_color": "#4a4f57",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "8928 U.S. 70 Business",
+          "address_2": null,
+          "city": "Clayton",
+          "region": "NC",
+          "postal_code": "27520",
+          "country": "US",
+          "latitude": "35.6278733",
+          "longitude": "-78.42876360000002",
+          "localized_address_display": "8928 U.S. 70 Business, Clayton, NC 27520",
+          "localized_area_display": "Clayton, NC",
+          "localized_multi_line_address_display": [
+            "8928 U.S. 70 Business",
+            "Clayton, NC 27520"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/18143933/",
+        "id": "18143933",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "The Comedy Zone Clayton (formerly Laugh Out Loud Comedy Club)",
+        "latitude": "35.6278733",
+        "longitude": "-78.42876360000002"
+      }
+    },
+    {
+      "name": {
+        "text": "Bent Brushes Paint & Sip-Boho Elephant",
+        "html": "Bent Brushes Paint &amp; Sip-Boho Elephant"
+      },
+      "description": {
+        "text": "I can't wait to paint this beautiful Boho Elephant with you! Bring your best friend out on March 25th at 3:30pm to the Big Easy downtown Raleigh and enjoy great music, great vibes and a beautiful painting. Each painter will go home with their beautiful canvas and a gift bag of natural bath and body gems compliments of The LoveMe Collection.\u00a0",
+        "html": "<P>I can't wait to paint this beautiful Boho Elephant with you! Bring your best friend out on March 25th at 3:30pm to the Big Easy downtown Raleigh and enjoy great music, great vibes and a beautiful painting. Each painter will go home with their beautiful canvas and a gift bag of natural bath and body gems compliments of The LoveMe Collection.\u00a0</P>"
+      },
+      "id": "44351442358",
+      "url": "https://www.eventbrite.com/e/bent-brushes-paint-sip-boho-elephant-tickets-44351442358?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-25T15:30:00",
+        "utc": "2018-03-25T19:30:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-25T17:30:00",
+        "utc": "2018-03-25T21:30:00Z"
+      },
+      "organization_id": "239721056718",
+      "created": "2018-03-20T00:38:54Z",
+      "changed": "2018-03-24T00:16:41Z",
+      "capacity": 40,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "42444798",
+      "organizer_id": "16370861434",
+      "venue_id": "23824144",
+      "category_id": "105",
+      "subcategory_id": "5012",
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/44351442358/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 52
+          },
+          "width": 1378,
+          "height": 689
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42444798%2F239721056718%2F1%2Foriginal.jpg?s=b2ae0b840ffe5ce1c55dfb2746437df1",
+          "width": 1378,
+          "height": 1070
+        },
+        "id": "42444798",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42444798%2F239721056718%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C52%2C1378%2C689&s=c600860c15b271a9074f220c1767b174",
+        "aspect_ratio": "2",
+        "edge_color": "#a98ab5",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "222 Fayetteville Street",
+          "address_2": null,
+          "city": "Raleigh",
+          "region": "NC",
+          "postal_code": "27601",
+          "country": "US",
+          "latitude": "35.7775835",
+          "longitude": "-78.63944900000001",
+          "localized_address_display": "222 Fayetteville Street, Raleigh, NC 27601",
+          "localized_area_display": "Raleigh, NC",
+          "localized_multi_line_address_display": [
+            "222 Fayetteville Street",
+            "Raleigh, NC 27601"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23824144/",
+        "id": "23824144",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "The Big Easy Raleigh",
+        "latitude": "35.7775835",
+        "longitude": "-78.63944900000001"
+      }
+    },
+    {
+      "name": {
+        "text": "Vibe & Paint",
+        "html": "Vibe &amp; Paint"
+      },
+      "description": {
+        "text": "New Life HW an Grind 365 Presents:\nVibe and Paint\nLocation:\nThe Luxury Box -\u00a08511 Cantilever Way, Raleigh NC 27613\nFeb 24th 20188pm to 11pm\n30 seats (Paint an Materials provided) - $35-Vip an Couples tables available (Email\u00a0Donb919@gmail.com)\n-Complimentary Wine/ Full bar an Food menu/Live Music",
+        "html": "<P>New Life HW an Grind 365 Presents:</P>\n<P>Vibe and Paint</P>\n<P>Location:</P>\n<P>The Luxury Box -\u00a0<A HREF=\"https://maps.google.com/?q=8511+Cantilever+Way,+Raleigh+NC+27613&entry=gmail&source=g\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">8511 Cantilever Way, Raleigh NC 27613</A></P>\n<P>Feb 24th 2018<BR>8pm to 11pm</P>\n<P>30 seats (Paint an Materials provided) - $35<BR>-Vip an Couples tables available (Email\u00a0<A HREF=\"mailto:Donb919@gmail.com\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Donb919@gmail.com</A>)</P>\n<P>-Complimentary Wine/ Full bar an Food menu/Live Music</P>"
+      },
+      "id": "43819551458",
+      "url": "https://www.eventbrite.com/e/vibe-paint-tickets-43819551458?aff=ebapi",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T20:00:00",
+        "utc": "2018-03-25T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+<<<<<<< HEAD
+        "local": "2018-03-24T21:30:00",
+        "utc": "2018-03-25T01:30:00Z"
+      },
+      "organization_id": "208186615073",
+      "created": "2017-12-14T20:26:21Z",
+      "changed": "2018-03-24T20:04:04Z",
+      "capacity": 62,
+=======
+        "local": "2018-03-24T23:00:00",
+        "utc": "2018-03-25T03:00:00Z"
+      },
+      "organization_id": "244405106141",
+      "created": "2018-03-05T02:29:57Z",
+      "changed": "2018-03-05T02:30:12Z",
+      "capacity": 30,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+<<<<<<< HEAD
+      "is_series": true,
+=======
+      "is_series": false,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+<<<<<<< HEAD
       "logo_id": "30827912",
       "organizer_id": "13425502239",
       "venue_id": "19093252",
@@ -58,10 +863,20 @@
       "format_id": "6",
       "resource_uri": "https://www.eventbriteapi.com/v3/events/41320098527/",
       "series_id": "34103450338",
+=======
+      "logo_id": "41713078",
+      "organizer_id": "16785482607",
+      "venue_id": "23573794",
+      "category_id": "105",
+      "subcategory_id": "5012",
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/43819551458/",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "logo": {
         "crop_mask": {
           "top_left": {
             "x": 0,
+<<<<<<< HEAD
             "y": 163
           },
           "width": 4288,
@@ -76,10 +891,27 @@
         "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F30827912%2F208186615073%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C163%2C4288%2C2144&s=08796917c192252ea98425fad9fa2300",
         "aspect_ratio": "2",
         "edge_color": "#000000",
+=======
+            "y": 300
+          },
+          "width": 1200,
+          "height": 600
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41713078%2F244405106141%2F1%2Foriginal.jpg?s=f5eb8e1867dd2e435606438b241d8689",
+          "width": 1200,
+          "height": 1200
+        },
+        "id": "41713078",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41713078%2F244405106141%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C300%2C1200%2C600&s=f248708ff2535d0a300298d812e17855",
+        "aspect_ratio": "2",
+        "edge_color": "#5c2862",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         "edge_color_set": true
       },
       "venue": {
         "address": {
+<<<<<<< HEAD
           "address_1": "318 West 53rd Street",
           "address_2": null,
           "city": "New York",
@@ -102,10 +934,35 @@
         "name": "Broadway Comedy Club",
         "latitude": "40.7644275",
         "longitude": "-73.9855958"
+=======
+          "address_1": "8511 Cantilever Way",
+          "address_2": null,
+          "city": "Raleigh",
+          "region": "NC",
+          "postal_code": "27612",
+          "country": "US",
+          "latitude": "35.8844996",
+          "longitude": "-78.7375414",
+          "localized_address_display": "8511 Cantilever Way, Raleigh, NC 27612",
+          "localized_area_display": "Raleigh, NC",
+          "localized_multi_line_address_display": [
+            "8511 Cantilever Way",
+            "Raleigh, NC 27612"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23573794/",
+        "id": "23573794",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "The Luxury Box",
+        "latitude": "35.8844996",
+        "longitude": "-78.7375414"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     },
     {
       "name": {
+<<<<<<< HEAD
         "text": "Musical Climax",
         "html": "Musical Climax"
       },
@@ -129,6 +986,31 @@
       "created": "2018-03-19T14:25:57Z",
       "changed": "2018-03-23T12:52:49Z",
       "capacity": 200,
+=======
+        "text": "An Evening with Jon Shain",
+        "html": "An Evening with Jon Shain"
+      },
+      "description": {
+        "text": "Jon Shain is a veteran singer-songwriter who's been turning heads for years with his words, his fiery acoustic guitar work, and his evolved musical style - combining improvised piedmont blues with bluegrass, swing, and ragtime. Shain\u2019s latest disc, a duet album with Joe Newberry, Crow the Dawn, was released in January, 2016. Shain is currently at work on a new recording project with long-time collaborator FJ Ventre. Jon also played on two records by Jim Avett, father of Seth and Scott Avett.Jon grew up in Haverhill, Massachusetts, a Merrimack River mill-town that had already seen its better days by the time he was a child in the 1970s. His family\u2019s business was a small textile dyeing company, and he worked in the factory during the summers throughout his teens. At the same time, Shain\u00a0began to discover his love of American roots music and songwriting, specifically drawn to the narratives about regular people and themes of social justice.Shain headed south to North Carolina in 1986, to study American History at Duke University and to continue his musical journey, as well. In addition to studying with jazz professor Paul Jeffrey, he also had the good fortune to learn the piedmont blues tradition firsthand by playing in Big Boy Henry\u2019s backing band. It was at this time that Shain also got to meet and play with John Dee Holeman and a number of the great older NC blues players. Shain's classes in school were heavily concentrated in southern history, English, and world religions. That mixture of the academic environment and the real-world blues music is what has most informed his musical direction.Shain cut his touring teeth from 1989-1998 founding the Chapel Hill, NC folk-rock group, Flyin' Mice and their spin-off group, WAKE. The band performed with acts such as David Grisman, Tony Rice Unit, Hot Tuna, and the Dixie Dregs, released four CDs, and played clubs, schools, and festivals up and down the East Coast, building a legion of fans.After his band's breakup, Shain went solo, returning to his roots in the folk and blues circuit. In addition to the album with Joe Newberry and a live album with Jon Shain Trio, Jon has released eight studio albums, working with studio luminaries such as Dave Mattacks, Tom Dube, and Chris Stamey, along the way. As a guest artist, Jon has recorded with Jim Avett, Greg Humphreys, Dana Kletter, and many others and his instrumental music has been placed in several documentary films and commercials, as well as on shows on the Discovery Channel and Animal Planet.The last few years have seen Shain headlining listening rooms on the East Coast, in the Midwest, and in Europe, as well as opening shows for John Hiatt, Keb\u2019 Mo\u2019, Little Feat, and others. When Shain is not recording, producing other artists, or performing, he stays busy giving private instruction in Piedmont blues fingerstyle guitar, and teaching group workshops in songwriting and blues guitar.",
+        "html": "<P><SPAN>Jon Shain is a veteran singer-songwriter who's been turning heads for years with his words, his fiery acoustic guitar work, and his evolved musical style - combining improvised piedmont blues with bluegrass, swing, and ragtime. Shain\u2019s latest disc, a duet album with Joe Newberry, Crow the Dawn, was released in January, 2016. Shain is currently at work on a new recording project with long-time collaborator FJ Ventre. Jon also played on two records by Jim Avett, father of Seth and Scott Avett.</SPAN><BR><BR><SPAN>Jon grew up in Haverhill, Massachusetts, a Merrimack River mill-town that had already seen its better days by the time he was a child in the 1970s. His family\u2019s business was a small textile dyeing company, and he worked in the factory during the summers throughout his teens. At the same time, Shain</SPAN><SPAN CLASS=\"text_exposed_show\">\u00a0began to discover his love of American roots music and songwriting, specifically drawn to the narratives about regular people and themes of social justice.<BR><BR>Shain headed south to North Carolina in 1986, to study American History at Duke University and to continue his musical journey, as well. In addition to studying with jazz professor Paul Jeffrey, he also had the good fortune to learn the piedmont blues tradition firsthand by playing in Big Boy Henry\u2019s backing band. It was at this time that Shain also got to meet and play with John Dee Holeman and a number of the great older NC blues players. Shain's classes in school were heavily concentrated in southern history, English, and world religions. That mixture of the academic environment and the real-world blues music is what has most informed his musical direction.<BR><BR>Shain cut his touring teeth from 1989-1998 founding the Chapel Hill, NC folk-rock group, Flyin' Mice and their spin-off group, WAKE. The band performed with acts such as David Grisman, Tony Rice Unit, Hot Tuna, and the Dixie Dregs, released four CDs, and played clubs, schools, and festivals up and down the East Coast, building a legion of fans.<BR><BR>After his band's breakup, Shain went solo, returning to his roots in the folk and blues circuit. In addition to the album with Joe Newberry and a live album with Jon Shain Trio, Jon has released eight studio albums, working with studio luminaries such as Dave Mattacks, Tom Dube, and Chris Stamey, along the way. As a guest artist, Jon has recorded with Jim Avett, Greg Humphreys, Dana Kletter, and many others and his instrumental music has been placed in several documentary films and commercials, as well as on shows on the Discovery Channel and Animal Planet.<BR><BR>The last few years have seen Shain headlining listening rooms on the East Coast, in the Midwest, and in Europe, as well as opening shows for John Hiatt, Keb\u2019 Mo\u2019, Little Feat, and others. When Shain is not recording, producing other artists, or performing, he stays busy giving private instruction in Piedmont blues fingerstyle guitar, and teaching group workshops in songwriting and blues guitar.</SPAN></P>"
+      },
+      "id": "44201833875",
+      "url": "https://www.eventbrite.com/e/an-evening-with-jon-shain-tickets-44201833875?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-30T19:00:00",
+        "utc": "2018-03-30T23:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-30T21:00:00",
+        "utc": "2018-03-31T01:00:00Z"
+      },
+      "organization_id": "194739918505",
+      "created": "2018-03-14T21:08:05Z",
+      "changed": "2018-03-15T16:13:39Z",
+      "capacity": 60,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -145,6 +1027,7 @@
       "is_series_parent": false,
       "is_reserved_seating": false,
       "source": "create_2.0",
+<<<<<<< HEAD
       "is_free": true,
       "version": "3.0.0",
       "logo_id": "42409118",
@@ -154,10 +1037,22 @@
       "subcategory_id": "10004",
       "format_id": "11",
       "resource_uri": "https://www.eventbriteapi.com/v3/events/44327979179/",
+=======
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "42233507",
+      "organizer_id": "16982713627",
+      "venue_id": "23590482",
+      "category_id": "103",
+      "subcategory_id": "3002",
+      "format_id": "6",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/44201833875/",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "logo": {
         "crop_mask": {
           "top_left": {
             "x": 0,
+<<<<<<< HEAD
             "y": 67
           },
           "width": 1200,
@@ -172,10 +1067,27 @@
         "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42409118%2F181469046151%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C67%2C1200%2C600&s=39018e7d11ad748e18d0278e8dec22c7",
         "aspect_ratio": "2",
         "edge_color": "#ffffff",
+=======
+            "y": 117
+          },
+          "width": 2986,
+          "height": 1493
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42233507%2F194739918505%2F1%2Foriginal.jpg?s=359c250ddd807c9d064693e123b0cf95",
+          "width": 2986,
+          "height": 3732
+        },
+        "id": "42233507",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42233507%2F194739918505%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C117%2C2986%2C1493&s=ece34871b6b313d389ce73e03393fb5b",
+        "aspect_ratio": "2",
+        "edge_color": "#230944",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         "edge_color_set": true
       },
       "venue": {
         "address": {
+<<<<<<< HEAD
           "address_1": "244 East Houston Street",
           "address_2": null,
           "city": "New York",
@@ -198,10 +1110,35 @@
         "name": "Open House Club",
         "latitude": "40.7223511",
         "longitude": "-73.98560599999996"
+=======
+          "address_1": "219 South White Street",
+          "address_2": null,
+          "city": "Wake Forest",
+          "region": "NC",
+          "postal_code": "27587",
+          "country": "US",
+          "latitude": "35.9775247",
+          "longitude": "-78.50963860000002",
+          "localized_address_display": "219 South White Street, Wake Forest, NC 27587",
+          "localized_area_display": "Wake Forest, NC",
+          "localized_multi_line_address_display": [
+            "219 South White Street",
+            "Wake Forest, NC 27587"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23590482/",
+        "id": "23590482",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Sugar Magnolia Cafe & Emporium",
+        "latitude": "35.9775247",
+        "longitude": "-78.50963860000002"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     },
     {
       "name": {
+<<<<<<< HEAD
         "text": "Free Live Music Sat! ",
         "html": "Free Live Music Sat! "
       },
@@ -225,6 +1162,31 @@
       "created": "2017-02-23T12:51:07Z",
       "changed": "2017-09-23T12:45:39Z",
       "capacity": 100,
+=======
+        "text": "Easter Egg Hunt",
+        "html": "Easter Egg Hunt"
+      },
+      "description": {
+        "text": "Join us as we celebrate Easter with an Egg Hunt with 8,000 eggs and lots of fun! Enjoy face painting, balloon twisting, bounce houses, live music and more! Find the\u00a0GOLDEN\u00a0eggs for extra prizes! Food will be available for purchase.\u00a0\n\n\n*Toddler (under age 2) egg hunt will be ongoing.\u00a0\n\n10:00am: Festivities begin\n10:30am: Egg Hunt for ages 2 - PreK\n11:00am: Sack Races & Egg Toss\n11:30am: Egg Hunt for grades K-5\n\n\nSprinkle or SHINE!\nLike our Facebook page to stay informed and gets updates about the event.\n\n",
+        "html": "<H2><SPAN>Join us as we celebrate Easter with an Egg Hunt with 8,000 eggs and lots of fun! Enjoy face painting, balloon twisting, bounce houses, live music and more! Find the\u00a0</SPAN><STRONG>GOLDEN</STRONG><SPAN>\u00a0eggs for extra prizes! Food will be available for purchase.\u00a0</SPAN></H2>\n<H2><BR></H2>\n<DIV>\n<H2>*Toddler (under age 2) egg hunt will be ongoing.\u00a0</H2>\n<H2><BR></H2>\n<H2>10:00am: Festivities begin</H2>\n<H2>10:30am: Egg Hunt for ages 2 - PreK</H2>\n<H2>11:00am: Sack Races &amp; Egg Toss</H2>\n<H2>11:30am: Egg Hunt for grades K-5</H2>\n<H2><BR></H2>\n<DIV>\n<H2>Sprinkle or SHINE!</H2>\n<H2>Like our Facebook page to stay informed and gets updates about the event.</H2>\n</DIV>\n</DIV>"
+      },
+      "id": "44148251609",
+      "url": "https://www.eventbrite.com/e/easter-egg-hunt-tickets-44148251609?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-31T10:00:00",
+        "utc": "2018-03-31T14:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-31T12:00:00",
+        "utc": "2018-03-31T16:00:00Z"
+      },
+      "organization_id": "248481197440",
+      "created": "2018-03-13T15:44:02Z",
+      "changed": "2018-03-13T15:47:18Z",
+      "capacity": 999,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -237,12 +1199,17 @@
       "locale": "en_US",
       "is_locked": false,
       "privacy_setting": "unlocked",
+<<<<<<< HEAD
       "is_series": true,
+=======
+      "is_series": false,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "is_series_parent": false,
       "is_reserved_seating": false,
       "source": "create_2.0",
       "is_free": true,
       "version": "3.0.0",
+<<<<<<< HEAD
       "logo_id": "28635148",
       "organizer_id": "12676777599",
       "venue_id": "17977018",
@@ -251,10 +1218,20 @@
       "format_id": "11",
       "resource_uri": "https://www.eventbriteapi.com/v3/events/32321596766/",
       "series_id": "32321539595",
+=======
+      "logo_id": "42149760",
+      "organizer_id": "17055780540",
+      "venue_id": "23722767",
+      "category_id": "115",
+      "subcategory_id": "15005",
+      "format_id": "5",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/44148251609/",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "logo": {
         "crop_mask": {
           "top_left": {
             "x": 0,
+<<<<<<< HEAD
             "y": 0
           },
           "width": 2160,
@@ -269,10 +1246,27 @@
         "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F28635148%2F198806836034%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C2160%2C1080&s=48d150eff64e3fe462c490c5f88dc240",
         "aspect_ratio": "2",
         "edge_color": "#2f285f",
+=======
+            "y": 78
+          },
+          "width": 640,
+          "height": 320
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42149760%2F248481197440%2F1%2Foriginal.jpg?s=b940d800cd1e11f009cd7cc54c81da84",
+          "width": 640,
+          "height": 404
+        },
+        "id": "42149760",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42149760%2F248481197440%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C78%2C640%2C320&s=a478fbde6a4e8717b5112c540c82e7a5",
+        "aspect_ratio": "2",
+        "edge_color": null,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         "edge_color_set": true
       },
       "venue": {
         "address": {
+<<<<<<< HEAD
           "address_1": "627 5th Avenue",
           "address_2": null,
           "city": "Brooklyn",
@@ -295,10 +1289,35 @@
         "name": "Freddy's Bar",
         "latitude": "40.663291",
         "longitude": "-73.99107700000002"
+=======
+          "address_1": "8509 Green Level Church Road",
+          "address_2": null,
+          "city": "Cary",
+          "region": "NC",
+          "postal_code": "27519",
+          "country": "US",
+          "latitude": "35.78231400000001",
+          "longitude": "-78.90427899999997",
+          "localized_address_display": "8509 Green Level Church Road, Cary, NC 27519",
+          "localized_area_display": "Cary, NC",
+          "localized_multi_line_address_display": [
+            "8509 Green Level Church Road",
+            "Cary, NC 27519"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23722767/",
+        "id": "23722767",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Green Level Baptist Church",
+        "latitude": "35.78231400000001",
+        "longitude": "-78.90427899999997"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     },
     {
       "name": {
+<<<<<<< HEAD
         "text": "Art, Music and Culture night",
         "html": "Art, Music and Culture night"
       },
@@ -322,6 +1341,31 @@
       "created": "2018-01-22T19:10:36Z",
       "changed": "2018-01-22T19:11:09Z",
       "capacity": 300,
+=======
+        "text": "Brian Dawson Presents- Solas On Fridays!!!!",
+        "html": "Brian Dawson Presents- Solas On Fridays!!!!"
+      },
+      "description": {
+        "text": "Friday nights haven't been the same since BD Entertainment started Solas On Fridays. It is the most talked about night in the city! With 2 floors, 3 DJ's, and music that includes R&B/Crossover and Top 40/International, not to mention, the host- K97.5's Brian Dawson, there's something that will fit the taste of any party-goer in the Triangle. Dancing and partying the night away at Solas On Fridays is sure to make your night a happy one; so grab your friends, get dressed up, register and get in the mix at\u00a0#SolasOnFridays!",
+        "html": "<P><SPAN>Friday nights haven't been the same since BD Entertainment started Solas On Fridays. It is the most talked about night in the city! With 2 floors, 3 DJ's, and music that includes R&B/Crossover and Top 40/International, not to mention, the host- K97.5's Brian Dawson, there's something that will fit the taste of any party-goer in the Triangle. Dancing and partying the night away at Solas On Fridays is sure to make your night a happy one; so grab your friends, get dressed up, register and get in the mix at\u00a0</SPAN><STRONG><EM>#SolasOnFridays</EM>!</STRONG></P>"
+      },
+      "id": "42970147869",
+      "url": "https://www.eventbrite.com/e/brian-dawson-presents-solas-on-fridays-tickets-42970147869?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-30T22:00:00",
+        "utc": "2018-03-31T02:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-31T02:00:00",
+        "utc": "2018-03-31T06:00:00Z"
+      },
+      "organization_id": "26290756",
+      "created": "2018-02-08T03:01:25Z",
+      "changed": "2018-02-08T03:01:31Z",
+      "capacity": 200,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -338,6 +1382,7 @@
       "is_series_parent": false,
       "is_reserved_seating": false,
       "source": "create_2.0",
+<<<<<<< HEAD
       "is_free": false,
       "version": "3.0.0",
       "logo_id": null,
@@ -373,10 +1418,67 @@
         "name": "Issyra Gallery",
         "latitude": "40.73646960000001",
         "longitude": "-74.03533540000001"
+=======
+      "is_free": true,
+      "version": "3.0.0",
+      "logo_id": "40647753",
+      "organizer_id": "137291359",
+      "venue_id": "11436045",
+      "category_id": "104",
+      "subcategory_id": "4999",
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/42970147869/",
+      "series_id": "42970137839",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 829
+          },
+          "width": 1748,
+          "height": 874
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40647753%2F26290756%2F1%2Foriginal.jpg?s=d0fa22e2418405238071bec7d4931564",
+          "width": 1749,
+          "height": 1749
+        },
+        "id": "40647753",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40647753%2F26290756%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C829%2C1748%2C874&s=8bf275bd1f70fdb6e10ad0191d82f1e6",
+        "aspect_ratio": "2",
+        "edge_color": "#59445c",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "419 Glenwood Avenue",
+          "address_2": null,
+          "city": "Raleigh",
+          "region": "NC",
+          "postal_code": "27603",
+          "country": "US",
+          "latitude": "35.785683",
+          "longitude": "-78.64775800000001",
+          "localized_address_display": "419 Glenwood Avenue, Raleigh, NC 27603",
+          "localized_area_display": "Raleigh, NC",
+          "localized_multi_line_address_display": [
+            "419 Glenwood Avenue",
+            "Raleigh, NC 27603"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/11436045/",
+        "id": "11436045",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Solas",
+        "latitude": "35.785683",
+        "longitude": "-78.64775800000001"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     },
     {
       "name": {
+<<<<<<< HEAD
         "text": "Hotta Peppa Music",
         "html": "Hotta Peppa Music"
       },
@@ -400,6 +1502,31 @@
       "created": "2018-03-13T14:57:49Z",
       "changed": "2018-03-13T15:24:05Z",
       "capacity": 250,
+=======
+        "text": "Silent Auction - Entertainment - Complementary Wine Tasting",
+        "html": "Silent Auction - Entertainment - Complementary Wine Tasting"
+      },
+      "description": {
+        "text": "This event will be the talk of Cary with music, entertainment, wine tasting, and more.\u00a0 The environment will be classy but laid back and open to the public.\u00a0 Invite your bestie to come out and shop, mingle, and taste.\u00a0 Please purchase your ticket in advance and allow yourself to give to a worthy cause.\u00a0 \u00a0\u00a0\n\nHere are a few big ticket items we have available:\u00a0\u00a0\n\nLED HOME PROJECTORS\nPERSONAL TRAINING\nSPA BASKET\nJEWELRY\nMASSAGE PACKAGE\nCOOKWARE\nWINE BASKETS\nLAWN EQUIPMENT\nMINK COAT AND MORE\n\nIf you are interested in donating to this event or being a vendor to market your business, please call (919) 335-6763 to find out the details.\u00a0\u00a0",
+        "html": "<P>This event will be the talk of Cary with music, entertainment, wine tasting, and more.\u00a0 The environment will be classy but laid back and open to the public.\u00a0 Invite your bestie to come out and shop, mingle, and taste.\u00a0 Please purchase your ticket in advance and allow yourself to give to a worthy cause.\u00a0 \u00a0\u00a0</P>\n<P><BR></P>\n<P>Here are a few big ticket items we have available:\u00a0\u00a0</P>\n<UL>\n<LI>LED HOME PROJECTORS</LI>\n<LI>PERSONAL TRAINING</LI>\n<LI>SPA BASKET</LI>\n<LI>JEWELRY</LI>\n<LI>MASSAGE PACKAGE</LI>\n<LI>COOKWARE</LI>\n<LI>WINE BASKETS</LI>\n<LI>LAWN EQUIPMENT</LI>\n<LI>MINK COAT AND MORE</LI>\n</UL>\n<P>If you are interested in donating to this event or being a vendor to market your business, please call (919) 335-6763 to find out the details.\u00a0\u00a0</P>"
+      },
+      "id": "43802256729",
+      "url": "https://www.eventbrite.com/e/silent-auction-entertainment-complementary-wine-tasting-tickets-43802256729?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-31T17:00:00",
+        "utc": "2018-03-31T21:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-31T20:00:00",
+        "utc": "2018-04-01T00:00:00Z"
+      },
+      "organization_id": "247058423252",
+      "created": "2018-03-04T05:37:29Z",
+      "changed": "2018-03-21T22:37:35Z",
+      "capacity": 200,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -418,6 +1545,7 @@
       "source": "create_2.0",
       "is_free": false,
       "version": "3.0.0",
+<<<<<<< HEAD
       "logo_id": "42146162",
       "organizer_id": "17055332425",
       "venue_id": "23721947",
@@ -425,10 +1553,20 @@
       "subcategory_id": "4999",
       "format_id": "11",
       "resource_uri": "https://www.eventbriteapi.com/v3/events/44145849424/",
+=======
+      "logo_id": "42090834",
+      "organizer_id": "16969379940",
+      "venue_id": "23701798",
+      "category_id": "110",
+      "subcategory_id": "10002",
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/43802256729/",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "logo": {
         "crop_mask": {
           "top_left": {
             "x": 0,
+<<<<<<< HEAD
             "y": 70
           },
           "width": 210,
@@ -443,10 +1581,27 @@
         "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42146162%2F248473781892%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C70%2C210%2C105&s=610d78bd5042c23c8e9075bb9f28c53d",
         "aspect_ratio": "2",
         "edge_color": "#8e418b",
+=======
+            "y": 345
+          },
+          "width": 852,
+          "height": 426
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42090834%2F247058423252%2F1%2Foriginal.jpg?s=35f5101c7871f34e9a034bc479fa1746",
+          "width": 854,
+          "height": 1280
+        },
+        "id": "42090834",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42090834%2F247058423252%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C345%2C852%2C426&s=7a4f5f41f520d087df0cf127fdf819ee",
+        "aspect_ratio": "2",
+        "edge_color": "#0c886b",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         "edge_color_set": true
       },
       "venue": {
         "address": {
+<<<<<<< HEAD
           "address_1": "735 flatbush ave",
           "address_2": null,
           "city": "brooklyn",
@@ -469,10 +1624,35 @@
         "name": null,
         "latitude": "40.6550649",
         "longitude": "-73.95951230000003"
+=======
+          "address_1": "200 Dominion Oak Circle",
+          "address_2": null,
+          "city": "Cary",
+          "region": "NC",
+          "postal_code": "27519",
+          "country": "US",
+          "latitude": "35.850918",
+          "longitude": "-78.89235389999999",
+          "localized_address_display": "200 Dominion Oak Circle, Cary, NC 27519",
+          "localized_area_display": "Cary, NC",
+          "localized_multi_line_address_display": [
+            "200 Dominion Oak Circle",
+            "Cary, NC 27519"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23701798/",
+        "id": "23701798",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Parkside Place Clubhouse",
+        "latitude": "35.850918",
+        "longitude": "-78.89235389999999"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     },
     {
       "name": {
+<<<<<<< HEAD
         "text": "THE INVISIBLE MAN with live music by OLSEN",
         "html": "THE INVISIBLE MAN with live music by OLSEN"
       },
@@ -4317,6 +5497,31 @@
       "created": "2018-02-16T02:51:29Z",
       "changed": "2018-02-28T01:59:07Z",
       "capacity": 200,
+=======
+        "text": "Madison Jay's Sound Reception for \"Line Em Up\"",
+        "html": "Madison Jay&#39;s Sound Reception for &#34;Line Em Up&#34;"
+      },
+      "description": {
+        "text": "You all are cordially invited to join us at RedLine Recording Studios, as we have a sound reception for Madison Jay and his new single \"Line Em Up\". Throughout the evening you'll enjoy a mellow atmosphere with light food and beverage courtesy of the company. You'll be encouraged to mix and mingle with other attendees, network and introduce yourself to as many people as possible. You'll have the opportunity to meet and greet with Madison Jay, as he'll be answering any questions concerning his upcoming project. The peak of the night will be highlighted by the world premiere of Madison Jay's new music video \"Line Em Up\" directed by Joseph \"Headgraphix\" Headen for A-Side Entertainment.\n\nPlease RSVP if you plan on attending... SPACE IS LIMITED!\nNote: The address will be emailed after you RSVP.",
+        "html": "<P>You all are cordially invited to join us at RedLine Recording Studios, as we have a sound reception for Madison Jay and his new single \"Line Em Up\". Throughout the evening you'll enjoy a mellow atmosphere with light food and beverage courtesy of the company. You'll be encouraged to mix and mingle with other attendees, network and introduce yourself to as many people as possible. You'll have the opportunity to meet and greet with Madison Jay, as he'll be answering any questions concerning his upcoming project. The peak of the night will be highlighted by the world premiere of Madison Jay's new music video \"Line Em Up\" directed by Joseph \"Headgraphix\" Headen for A-Side Entertainment.</P>\n<P><BR></P>\n<P>Please RSVP if you plan on attending... SPACE IS LIMITED!</P>\n<P>Note: The address will be emailed after you RSVP.</P>"
+      },
+      "id": "44357035086",
+      "url": "https://www.eventbrite.com/e/madison-jays-sound-reception-for-line-em-up-tickets-44357035086?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-31T19:00:00",
+        "utc": "2018-03-31T23:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-31T21:00:00",
+        "utc": "2018-04-01T01:00:00Z"
+      },
+      "organization_id": "49365393666",
+      "created": "2018-03-20T06:12:09Z",
+      "changed": "2018-03-20T22:39:14Z",
+      "capacity": 50,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -4329,12 +5534,17 @@
       "locale": "en_US",
       "is_locked": false,
       "privacy_setting": "unlocked",
+<<<<<<< HEAD
       "is_series": true,
+=======
+      "is_series": false,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "is_series_parent": false,
       "is_reserved_seating": false,
       "source": "create_2.0",
       "is_free": true,
       "version": "3.0.0",
+<<<<<<< HEAD
       "logo_id": "40992811",
       "organizer_id": "7828873164",
       "venue_id": "23319560",
@@ -4343,10 +5553,20 @@
       "format_id": "11",
       "resource_uri": "https://www.eventbriteapi.com/v3/events/43222367264/",
       "series_id": "43222194748",
+=======
+      "logo_id": "42453706",
+      "organizer_id": "6494043307",
+      "venue_id": "23827284",
+      "category_id": "103",
+      "subcategory_id": "3008",
+      "format_id": "7",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/44357035086/",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "logo": {
         "crop_mask": {
           "top_left": {
             "x": 0,
+<<<<<<< HEAD
             "y": 32
           },
           "width": 1280,
@@ -4361,10 +5581,27 @@
         "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40992811%2F132006898918%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C32%2C1280%2C640&s=d921d9b41ce7cc99e3b655430127ceaf",
         "aspect_ratio": "2",
         "edge_color": "#d2c0b3",
+=======
+            "y": 258
+          },
+          "width": 530,
+          "height": 265
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42453706%2F49365393666%2F1%2Foriginal.jpg?s=8c03eae10280be2161effa88f612e2a2",
+          "width": 530,
+          "height": 530
+        },
+        "id": "42453706",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42453706%2F49365393666%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C258%2C530%2C265&s=b2e2d5e6f3305ec471d866281b5364ea",
+        "aspect_ratio": "2",
+        "edge_color": "#231f20",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         "edge_color_set": true
       },
       "venue": {
         "address": {
+<<<<<<< HEAD
           "address_1": "156 West 38th Street",
           "address_2": null,
           "city": "New York",
@@ -4387,10 +5624,35 @@
         "name": "156 W 38th St",
         "latitude": "40.7532456",
         "longitude": "-73.9884639"
+=======
+          "address_1": "RedLine Recording Studio",
+          "address_2": null,
+          "city": "Cary",
+          "region": "NC",
+          "postal_code": null,
+          "country": "US",
+          "latitude": "35.7618971",
+          "longitude": "-78.81743169999999",
+          "localized_address_display": "RedLine Recording Studio, Cary, NC",
+          "localized_area_display": "Cary, NC",
+          "localized_multi_line_address_display": [
+            "RedLine Recording Studio",
+            "Cary, NC"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23827284/",
+        "id": "23827284",
+        "age_restriction": null,
+        "capacity": null,
+        "name": null,
+        "latitude": "35.7618971",
+        "longitude": "-78.81743169999999"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     },
     {
       "name": {
+<<<<<<< HEAD
         "text": "-FREE 1 HR OF OPEN BAR + 2 FOR 1 BOTTLE SPECIALS at HUDSON TERRACE - FREE Birthday Parties!",
         "html": "-FREE 1 HR OF OPEN BAR + 2 FOR 1 BOTTLE SPECIALS at HUDSON TERRACE - FREE Birthday Parties!"
       },
@@ -4414,6 +5676,32 @@
       "created": "2017-08-28T17:12:41Z",
       "changed": "2018-02-14T14:27:49Z",
       "capacity": 56555,
+=======
+        "text": "40PLus Social w/ Lock & Key Access",
+        "html": "40PLus Social w/ Lock &amp; Key Access"
+      },
+      "description": {
+        "text": "SAVE THE DATE!\nMix & Mingle\u00a0\nMeet the Elite Men & Elite Women\nMen & Women Social Panel\nLove Lanuage\nLock & Key\u00a0\nLight Refreshments\nFull Bar\nThrowback 70's-90's & lil 2000+ Music\nReady Made Men vs Ready Made Women, Come Meet & Greet THE Elite!\u00a0 Mini discussion panel on site.\u00a0 Vendors, Relationship Book Signing w/Mr. Courtney and more.\n(Lock and Key Game for the 40Plus Singles; limited; so arrive early to ensure you get a key or a lock) Bring a friend.\nDress Code: Upscale~Mature (No Boots, Sneakers, T-shirts, Baggy Pants)\n\n*Free Event\nWe're on a mission to SERVE our community and thank you for helping us, help them!\n(accepting non parrishable food items to hand out in tote bags to the homeless on the street; such as tuna packets, water, crackers, potted meat, etc. *Womens's Shelter, we need gently used purses for the \"Purse Project\" for Mother's Day Month in May; we need about 25 more; we're stuffing them with personal items, snacks, jewlery, etc)",
+        "html": "<P>SAVE THE DATE!</P>\n<P><SPAN>Mix &amp; Mingle\u00a0</SPAN></P>\n<P><SPAN>Meet the Elite Men &amp; Elite Women</SPAN></P>\n<P>Men &amp; Women Social Panel</P>\n<P>Love Lanuage</P>\n<P>Lock &amp; Key\u00a0</P>\n<P>Light Refreshments</P>\n<P>Full Bar</P>\n<P>Throwback 70's-90's &amp; lil 2000+ Music</P>\n<P>Ready Made Men vs Ready Made Women, Come Meet &amp; Greet THE Elite!\u00a0 Mini discussion panel on site.\u00a0 Vendors, Relationship Book Signing w/Mr. Courtney and more.</P>\n<P>(Lock and Key Game for the 40Plus Singles; limited; so arrive early to ensure you get a key or a lock) Bring a friend.</P>\n<P>Dress Code: Upscale~Mature (No Boots, Sneakers, T-shirts, Baggy Pants)</P>\n<P><BR></P>\n<P>*Free Event</P>\n<P>We're on a mission to SERVE our community and thank you for helping us, help them!</P>\n<P>(accepting non parrishable food items to hand out in tote bags to the homeless on the street; such as tuna packets, water, crackers, potted meat, etc. *Womens's Shelter, we need gently used purses for the \"Purse Project\" for Mother's Day Month in May; we need about 25 more; we're stuffing them with personal items, snacks, jewlery, etc)</P>"
+      },
+      "id": "42879178778",
+      "url": "https://www.eventbrite.com/e/40plus-social-w-lock-key-access-tickets-42879178778?aff=ebapi",
+      "vanity_url": "https://40plussocial.eventbrite.com",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T18:00:00",
+        "utc": "2018-03-24T22:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T21:00:00",
+        "utc": "2018-03-25T01:00:00Z"
+      },
+      "organization_id": "19336004151",
+      "created": "2018-02-05T20:00:16Z",
+      "changed": "2018-03-15T12:30:37Z",
+      "capacity": 500,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -4426,6 +5714,7 @@
       "locale": "en_US",
       "is_locked": false,
       "privacy_setting": "unlocked",
+<<<<<<< HEAD
       "is_series": true,
       "is_series_parent": false,
       "is_reserved_seating": false,
@@ -4451,10 +5740,44 @@
         "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F12641417%2F51053776188%2F1%2Foriginal.jpg?h=200&w=450&s=0ebf312a63e5564932af96b405e893c2",
         "aspect_ratio": "1.5",
         "edge_color": "#b3b5b8",
+=======
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "41619585",
+      "organizer_id": "2435391234",
+      "venue_id": "23143886",
+      "category_id": "110",
+      "subcategory_id": "10999",
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/42879178778/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 44
+          },
+          "width": 1500,
+          "height": 750
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41619585%2F19336004151%2F1%2Foriginal.jpg?s=5b65767c6d35bfc0990e02ea32cabac8",
+          "width": 1500,
+          "height": 1500
+        },
+        "id": "41619585",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41619585%2F19336004151%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C44%2C1500%2C750&s=fbb330ce469533a3db2ec858558949ea",
+        "aspect_ratio": "2",
+        "edge_color": "#ffffff",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         "edge_color_set": true
       },
       "venue": {
         "address": {
+<<<<<<< HEAD
           "address_1": "621 West 46th Street",
           "address_2": null,
           "city": "New York",
@@ -4477,10 +5800,35 @@
         "name": "Hudson Terrace",
         "latitude": "40.764014",
         "longitude": "-73.99774400000001"
+=======
+          "address_1": "2805 Highwoods Boulevard",
+          "address_2": null,
+          "city": "Raleigh",
+          "region": "NC",
+          "postal_code": "27604",
+          "country": "US",
+          "latitude": "35.8177545",
+          "longitude": "-78.60143779999999",
+          "localized_address_display": "2805 Highwoods Boulevard, Raleigh, NC 27604",
+          "localized_area_display": "Raleigh, NC",
+          "localized_multi_line_address_display": [
+            "2805 Highwoods Boulevard",
+            "Raleigh, NC 27604"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23143886/",
+        "id": "23143886",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Holiday Inn Raleigh North - Midtown",
+        "latitude": "35.8177545",
+        "longitude": "-78.60143779999999"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     },
     {
       "name": {
+<<<<<<< HEAD
         "text": "Jess Ray and forBrothers in HALEDON, NJ",
         "html": "Jess Ray and forBrothers in HALEDON, NJ"
       },
@@ -4504,6 +5852,127 @@
       "created": "2018-02-05T21:59:32Z",
       "changed": "2018-03-24T02:54:40Z",
       "capacity": 100,
+=======
+        "text": "Wendell Egg Hunt",
+        "html": "Wendell Egg Hunt"
+      },
+      "description": {
+        "text": "The Passage Church would like to invite you to come experience the\u00a0Wendell, NC Egg Hunt! This year's event will be the biggest yet. Come spend the day in the town of Wendell and see what this amazing town has to offer. The Egg Hunt activities will begin at 10:00am and finish up around 12:00pm. We'll have inflatable bounce houses, face painting, music & more!\u00a0\nAfter the hunt you can check out some of our local downtown businesses for lunch, or head out to Wendell Falls and grab a bite. You can swing by our award winning coffee shop 41 North, and get some ice cream at the Wendell General Store. Another fun activity in Wendell is #wendellrocks. Take your kids on a scavenger hunt in downtown Wendell and find some of the coolest painted rocks you've ever seen!\u00a0\nCome on out to the Wendell Egg Hunt on March 31, 2018 and experience our small town, with big charm.\u00a0",
+        "html": "<P>The Passage Church would like to invite you to come experience the\u00a0Wendell, NC Egg Hunt! This year's event will be the biggest yet. Come spend the day in the town of Wendell and see what this amazing town has to offer. The Egg Hunt activities will begin at 10:00am and finish up around 12:00pm. We'll have inflatable bounce houses, face painting, music &amp; more!\u00a0</P>\n<P>After the hunt you can check out some of our local downtown businesses for lunch, or head out to Wendell Falls and grab a bite. You can swing by our award winning coffee shop 41 North, and get some ice cream at the Wendell General Store. Another fun activity in Wendell is #wendellrocks. Take your kids on a scavenger hunt in downtown Wendell and find some of the coolest painted rocks you've ever seen!\u00a0</P>\n<P>Come on out to the Wendell Egg Hunt on March 31, 2018 and experience our small town, with big charm.\u00a0</P>"
+      },
+      "id": "42883362291",
+      "url": "https://www.eventbrite.com/e/wendell-egg-hunt-tickets-42883362291?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-31T10:00:00",
+        "utc": "2018-03-31T14:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-31T12:00:00",
+        "utc": "2018-03-31T16:00:00Z"
+      },
+      "organization_id": "243718892033",
+      "created": "2018-02-05T21:42:38Z",
+      "changed": "2018-03-16T16:15:01Z",
+      "capacity": 2000,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": true,
+      "version": "3.0.0",
+      "logo_id": "40522379",
+      "organizer_id": "16712526464",
+      "venue_id": "23147767",
+      "category_id": "116",
+      "subcategory_id": "16002",
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/42883362291/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 60
+          },
+          "width": 1920,
+          "height": 960
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40522379%2F243718892033%2F1%2Foriginal.jpg?s=38cffdfaa52b321be8e4b5f1f4ba8e58",
+          "width": 1920,
+          "height": 1080
+        },
+        "id": "40522379",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40522379%2F243718892033%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C60%2C1920%2C960&s=f436bb0808098fdbb7f0ffd7b1260b96",
+        "aspect_ratio": "2",
+        "edge_color": "#72cecb",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "601 West 3rd Street",
+          "address_2": null,
+          "city": "Wendell",
+          "region": "NC",
+          "postal_code": "27591",
+          "country": "US",
+          "latitude": "35.78301729999999",
+          "longitude": "-78.38083670000003",
+          "localized_address_display": "601 West 3rd Street, Wendell, NC 27591",
+          "localized_area_display": "Wendell, NC",
+          "localized_multi_line_address_display": [
+            "601 West 3rd Street",
+            "Wendell, NC 27591"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23147767/",
+        "id": "23147767",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "601 W 3rd St",
+        "latitude": "35.78301729999999",
+        "longitude": "-78.38083670000003"
+      }
+    },
+    {
+      "name": {
+        "text": "LLIT Invasion Tour: Battle of the DJs",
+        "html": "LLIT Invasion Tour: Battle of the DJs"
+      },
+      "description": {
+        "text": "Battle of the DJ's: Hip Hop vs Reggae is the LLIT Invasion Tour Main Event happening at LEVEL NIGHT CLUB. Party Bus, VIP, 4 DJs, Hookah, Drink Specials and Great Music. A night you do not want to miss!\nVisit LLITINVASIONTOUR.SPLASHTHAT.COM for more info about the tour\n\nLLIT Invasion Tour: Boston Invades NC - Battle of the DJs\nMarch 24th, 2018\u00a0\nAddress: LEVEL NIGHT CLUB\n3925 New Bern Avenue, Raleigh, NC 27610\n\n4 Guest DJs - 2 Rooms: \n\nBig Tunez The DJ (Bostons Best Hip-Hop DJ)\nDJ Hypa (NYC's Best Reggae/Dancehall DJ)\nDJ Mr. Fenty (Boston's Best Soca and Reggae DJ)\nDJ Gallis: (Boston's Best Kompa, Pasada and Kizomba DJ)\n\nDrink Specials All Night, Hookah Sticks, Give Aways and much more!!!\n\nEarly Bird Tickets: $10\nGeneral Admin Ticket: $15\nParty Bus Package: $30\n( Includes Round Trip Ride From Durham to Raleigh and Back on the Party Bus, Entry to the Level Night Club. )\nBoarding at 10pm - Departure From The Bull 10:15pm - Pickup Time From Level Night Club Is 2am\nCity Center Plaza (by the bull) 201 N Corcoran St Durham, NC 27701\nVIP Package Deposit: $50\nGet Your TIckets @ LoveItorLikeIt.com\n\nShoutout to our Sponsors and Partners for this Tour:\nUndocumented Podcast.\u00a0The One We,\u00a0Noir Online,\u00a0A. Curry PR,\u00a0The Girlfriends Pod,\u00a0Miscommunication Podcast\n\n",
+        "html": "<P><SPAN>Battle of the DJ's: Hip Hop vs Reggae is the LLIT Invasion Tour Main Event happening at LEVEL NIGHT CLUB. Party Bus, VIP, 4 DJs, Hookah, Drink Specials and Great Music. A night you do not want to miss!</SPAN></P>\n<P CLASS=\"MsoNormal\">Visit <A HREF=\"http://LLITINVASIONTOUR.SPLASHTHAT.COM\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">LLITINVASIONTOUR.SPLASHTHAT.COM</A> for more info about the tour</P>\n<HR>\n<P>LLIT Invasion Tour: Boston Invades NC - Battle of the DJs</P>\n<P CLASS=\"MsoNormal\"><SPAN>March 24th, 2018\u00a0</SPAN></P>\n<P CLASS=\"MsoNormal\"><SPAN>Address: LEVEL NIGHT CLUB</SPAN></P>\n<P CLASS=\"MsoNormal\"><SPAN>3925 New Bern Avenue, Raleigh, NC 27610</SPAN></P>\n<HR>\n<P CLASS=\"MsoNormal\"><SPAN>4 Guest DJs - 2 Rooms: </SPAN></P>\n<OL>\n<LI>Big Tunez The DJ (Bostons Best Hip-Hop DJ)</LI>\n<LI>DJ Hypa (NYC's Best Reggae/Dancehall DJ)</LI>\n<LI>DJ Mr. Fenty (Boston's Best Soca and Reggae DJ)</LI>\n<LI>DJ Gallis: (Boston's Best Kompa, Pasada and Kizomba DJ)</LI>\n</OL>\n<P>Drink Specials All Night, Hookah Sticks, Give Aways and much more!!!</P>\n<HR>\n<P CLASS=\"MsoNormal\">Early Bird Tickets: $10</P>\n<P CLASS=\"MsoNormal\"><SPAN>General Admin Ticket: $15</SPAN></P>\n<P CLASS=\"MsoNormal\"><SPAN><SPAN>Party Bus Package: $30</SPAN></SPAN></P>\n<DIV><STRONG><SPAN><SPAN>( Includes Round Trip Ride From Durham to Raleigh and Back on the Party Bus, Entry to the Level Night Club. )</SPAN></SPAN></STRONG></DIV>\n<DIV><STRONG><SPAN><SPAN>Boarding at 10pm - Departure From The Bull 10:15pm - Pickup Time From Level Night Club Is 2am</SPAN></SPAN></STRONG></DIV>\n<DIV><STRONG><SPAN><SPAN>City Center Plaza (by the bull) 201 N Corcoran St Durham, NC 27701</SPAN></SPAN></STRONG></DIV>\n<P CLASS=\"MsoNormal\"><SPAN><SPAN>VIP Package Deposit: $50</SPAN></SPAN></P>\n<P CLASS=\"MsoNormal\"><SPAN><SPAN>Get Your TIckets @ LoveItorLikeIt.com</SPAN></SPAN></P>\n<HR>\n<P CLASS=\"MsoNormal\">Shoutout to our Sponsors and Partners for this Tour:</P>\n<P CLASS=\"MsoNormal\"><SPAN><A HREF=\"https://www.youtube.com/channel/UCwzOO9IkI9k26zEONd51J4Q\" TARGET=\"_blank\" TITLE=\"Undocumented Podcast\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><SPAN>Undocumented Podcast</SPAN></A>.\u00a0<A HREF=\"https://theonewe.com/\" TARGET=\"_blank\" TITLE=\"The One We\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><SPAN>The One We</SPAN></A>,\u00a0<A HREF=\"https://www.noironline.org/\" TARGET=\"_blank\" TITLE=\"Noir Online\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><SPAN>Noir Online</SPAN></A>,\u00a0<A HREF=\"https://acurrypr.wixsite.com/acurry\" TARGET=\"_blank\" TITLE=\"A. Curry PR\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><SPAN>A. Curry PR</SPAN></A>,\u00a0<A HREF=\"https://linktr.ee/thegirlfriendspod\" TARGET=\"_blank\" TITLE=\"The Girlfriends Pod\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><SPAN>The Girlfriends Pod</SPAN></A>,\u00a0<A HREF=\"https://m.facebook.com/MiscommunicationPodcast/\" TARGET=\"_blank\" TITLE=\"Miscommunication Podcast\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><SPAN>Miscommunication Podcast</SPAN></A></SPAN></P>\n<P CLASS=\"MsoNormal\"><BR></P>\n<P CLASS=\"MsoNormal\"><BR></P>"
+      },
+      "id": "42651987242",
+      "url": "https://www.eventbrite.com/e/llit-invasion-tour-battle-of-the-djs-tickets-42651987242?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-24T22:00:00",
+        "utc": "2018-03-25T02:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-25T02:00:00",
+        "utc": "2018-03-25T06:00:00Z"
+      },
+      "organization_id": "140010857158",
+      "created": "2018-01-29T22:05:01Z",
+      "changed": "2018-03-23T13:00:20Z",
+      "capacity": 36,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -4522,6 +5991,7 @@
       "source": "create_2.0",
       "is_free": false,
       "version": "3.0.0",
+<<<<<<< HEAD
       "logo_id": "40669284",
       "organizer_id": "283130134",
       "venue_id": "23202050",
@@ -4529,12 +5999,22 @@
       "subcategory_id": "11006",
       "format_id": "6",
       "resource_uri": "https://www.eventbriteapi.com/v3/events/42884167700/",
+=======
+      "logo_id": "41801363",
+      "organizer_id": "15018958899",
+      "venue_id": "23468741",
+      "category_id": "110",
+      "subcategory_id": null,
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/42651987242/",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "logo": {
         "crop_mask": {
           "top_left": {
             "x": 0,
-            "y": 0
+            "y": 1970
           },
+<<<<<<< HEAD
           "width": 1600,
           "height": 800
         },
@@ -4547,10 +6027,25 @@
         "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40669284%2F1967347704%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C1600%2C800&s=32bbe1ec1bc65eca571337ee875e1167",
         "aspect_ratio": "2",
         "edge_color": "#292929",
+=======
+          "width": 2624,
+          "height": 1312
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41801363%2F140010857158%2F1%2Foriginal.jpg?s=bb4dff43e069dec6b1280289ec0a064a",
+          "width": 2625,
+          "height": 3375
+        },
+        "id": "41801363",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41801363%2F140010857158%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C1970%2C2624%2C1312&s=0bdfac47446ff2630dedd1459d68eed9",
+        "aspect_ratio": "2",
+        "edge_color": "#40322d",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         "edge_color_set": true
       },
       "venue": {
         "address": {
+<<<<<<< HEAD
           "address_1": "381 Haledon Ave",
           "address_2": null,
           "city": "Haledon",
@@ -4573,10 +6068,35 @@
         "name": "Bridgeway Community Church",
         "latitude": "40.9369475",
         "longitude": "-74.18156529999999"
+=======
+          "address_1": "3925 New Bern Avenue",
+          "address_2": null,
+          "city": "Raleigh",
+          "region": "NC",
+          "postal_code": "27610",
+          "country": "US",
+          "latitude": "35.8008728",
+          "longitude": "-78.57047210000002",
+          "localized_address_display": "3925 New Bern Avenue, Raleigh, NC 27610",
+          "localized_area_display": "Raleigh, NC",
+          "localized_multi_line_address_display": [
+            "3925 New Bern Avenue",
+            "Raleigh, NC 27610"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23468741/",
+        "id": "23468741",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Level Night Club",
+        "latitude": "35.8008728",
+        "longitude": "-78.57047210000002"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     },
     {
       "name": {
+<<<<<<< HEAD
         "text": "Hiphop X Reggae X Top40 - DJ Fourd Nkay, DJ DEN- Straight Heat Saturday",
         "html": "Hiphop X Reggae X Top40 - DJ Fourd Nkay, DJ DEN- Straight Heat Saturday"
       },
@@ -4600,6 +6120,31 @@
       "created": "2018-02-06T21:20:25Z",
       "changed": "2018-02-22T04:03:49Z",
       "capacity": 500,
+=======
+        "text": "Spanish for Adults (Wake Forest)",
+        "html": "Spanish for Adults (Wake Forest)"
+      },
+      "description": {
+        "text": "Do you want to learn Spanish? Do you travel to Spanish-speaking countries? Would knowing Spanish be helpful for your job? Is learning Spanish on your Bucket List? Why wait?\nSpanish for Adults\n6-week, 9 hour class for $90\nWhen:\u00a0Tuesdays 6:00-7:30pm March 27th through May 1st \nWhere: Hatch Coworking Office 104 South White St. Wake Forest, NC 27587\nDoes the thought of memorizing long lists of words make you dizzy? Do you still have nightmares of verb conjugation drills? Comprehension and understanding\u00a0will be our focus - NOT Grammar and conjugation.\nCertified Spanish teacher, Tony Williams, will be leading this dynamic and highly-engaging class using the latest language-acquisition research. Teaching Proficiency through Reading and Storytelling, or TPRS, targets the 100 most frequently used words in the Spanish language - NOT long lists of words to memorize. Spanish is taught in context through stories that are both understandable and entertaining. Class stories can be generated together as a group, come from a book, photo, video clip or movie.\nSeveral different websites, podcasts, apps, videos, music, TV shows and movies will be presented for practice outside of class. In addition, participants will borrow books from the class library for outside reading. Workbook included.\nFor further information, text or call 919-729-2480 or email tony@v1da.net. ",
+        "html": "<P CLASS=\"p1\">Do you want to learn Spanish? Do you travel to Spanish-speaking countries? Would knowing Spanish be helpful for your job? Is learning Spanish on your Bucket List? Why wait?</P>\n<P CLASS=\"p1\"><I><SPAN>Spanish for Adults</SPAN></I></P>\n<P CLASS=\"p1\"><SPAN>6-week, 9 hour class for $90</SPAN></P>\n<P CLASS=\"p1\"><I><SPAN>When</SPAN></I><SPAN>:\u00a0</SPAN><SPAN>Tuesdays 6:00-7:30pm March 27th through May 1st </SPAN></P>\n<P CLASS=\"p1\"><I><SPAN>Where</SPAN></I><SPAN>:</SPAN><SPAN> Hatch Coworking Office 104 South White St. Wake Forest, NC 27587</SPAN></P>\n<P CLASS=\"MsoNormal\"><SPAN>Does the thought of memorizing long lists of words make you dizzy? Do you still have nightmares of verb conjugation drills? </SPAN><SPAN>Comprehension and understanding\u00a0</SPAN>will be our focus - NOT Grammar and conjugation.</P>\n<P CLASS=\"p1\"><SPAN>Certified Spanish teacher, Tony Williams, will be leading this dynamic and highly-engaging class using the latest language-acquisition research. </SPAN><SPAN>Teaching Proficiency through Reading and Storytelling, or TPRS, targets the 100 most frequently used words in the Spanish language - NOT long lists of words to memorize. Spanish is taught in context through stories that are both understandable and entertaining. Class stories can be generated together as a group, come from a book, photo, video clip or movie.</SPAN></P>\n<P CLASS=\"MsoNormal\"><SPAN>Several different websites, podcasts, apps, videos, music, TV shows and movies will be presented for practice outside of class. </SPAN><SPAN>In addition, participants will borrow books from the class library for outside reading. </SPAN><SPAN>Workbook included.</SPAN><SPAN></SPAN></P>\n<P CLASS=\"p1\"><SPAN>For further information, text or call 919-729-2480 or email </SPAN><A HREF=\"mailto:tony@v1da.net\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><SPAN>tony@v1da.net</SPAN></A><SPAN>. </SPAN></P>"
+      },
+      "id": "44107043354",
+      "url": "https://www.eventbrite.com/e/spanish-for-adults-wake-forest-tickets-44107043354?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-27T18:00:00",
+        "utc": "2018-03-27T22:00:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-05-01T19:30:00",
+        "utc": "2018-05-01T23:30:00Z"
+      },
+      "organization_id": "1961940114",
+      "created": "2018-03-12T15:22:32Z",
+      "changed": "2018-03-12T15:46:13Z",
+      "capacity": 20,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -4618,6 +6163,7 @@
       "source": "create_2.0",
       "is_free": true,
       "version": "3.0.0",
+<<<<<<< HEAD
       "logo_id": "41238266",
       "organizer_id": "8287908072",
       "venue_id": "22917562",
@@ -4643,10 +6189,38 @@
         "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41238266%2F146844561565%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C197%2C1600%2C800&s=979ce530d245ceaefea1df682157920f",
         "aspect_ratio": "2",
         "edge_color": "#706917",
+=======
+      "logo_id": "42087794",
+      "organizer_id": "15424688262",
+      "venue_id": "23648662",
+      "category_id": "115",
+      "subcategory_id": "15001",
+      "format_id": "9",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/44107043354/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 26,
+            "y": 0
+          },
+          "width": 1444,
+          "height": 722
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42087794%2F1961940114%2F1%2Foriginal.jpg?s=b2eb4542a8029b3af1d98e86863f1709",
+          "width": 1497,
+          "height": 722
+        },
+        "id": "42087794",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42087794%2F1961940114%2F1%2Foriginal.jpg?h=200&w=450&rect=26%2C0%2C1444%2C722&s=3bcc66d52c8ca68cf79653bb08f3aab3",
+        "aspect_ratio": "2",
+        "edge_color": "#ffffff",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         "edge_color_set": true
       },
       "venue": {
         "address": {
+<<<<<<< HEAD
           "address_1": "168 Delancey Street",
           "address_2": null,
           "city": "New York",
@@ -4669,10 +6243,35 @@
         "name": "The Delancey (The Basement)",
         "latitude": "40.71797129999999",
         "longitude": "-73.98528870000001"
+=======
+          "address_1": "104 South White Street",
+          "address_2": null,
+          "city": "Wake Forest",
+          "region": "NC",
+          "postal_code": "27587",
+          "country": "US",
+          "latitude": "35.9791938",
+          "longitude": "-78.50959449999999",
+          "localized_address_display": "104 South White Street, Wake Forest, NC 27587",
+          "localized_area_display": "Wake Forest, NC",
+          "localized_multi_line_address_display": [
+            "104 South White Street",
+            "Wake Forest, NC 27587"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23648662/",
+        "id": "23648662",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Hatch Coworking Office",
+        "latitude": "35.9791938",
+        "longitude": "-78.50959449999999"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     },
     {
       "name": {
+<<<<<<< HEAD
         "text": "Spring Fling Party w/DJ Hollywood KO/DJAbrupt & DJJuano Saturday at SLLounge ",
         "html": "Spring Fling Party w/DJ Hollywood KO/DJAbrupt &amp; DJJuano Saturday at SLLounge "
       },
@@ -4696,6 +6295,31 @@
       "created": "2018-03-19T19:40:53Z",
       "changed": "2018-03-19T20:13:22Z",
       "capacity": 100,
+=======
+        "text": "Spanish for Adults Zebulon",
+        "html": "Spanish for Adults Zebulon"
+      },
+      "description": {
+        "text": "Do you want to learn Spanish? Do you travel to Spanish-speaking countries? Would knowing Spanish be helpful for your job? Is learning Spanish on your Bucket List? Why wait?\nSpanish for Adults\n6-week, 9 hour class for $90\nWhen:\u00a0Thursdays 6:30-8:00pm March 29th through May 3rd\nWhere: The Rusted Hinge Marketplace, 106 E. Vance St. Zebulon, NC 27597\nDoes the thought of memorizing long lists of words make you dizzy? Do you still have nightmares of verb conjugation drills? Comprehension and understanding\u00a0will be our focus - NOT Grammar and conjugation.\nCertified Spanish teacher, Tony Williams, will be leading this dynamic and highly-engaging class using the latest language-acquisition research. Teaching Proficiency through Reading and Storytelling, or TPRS, targets the 100 most frequently used words in the Spanish language - NOT long lists of words to memorize. Spanish is taught in context through stories that are both understandable and entertaining. Class stories can be generated together as a group, come from a book, photo, video clip or movie.\nSeveral different websites, podcasts, apps, videos, music, TV shows and movies will be presented for practice outside of class. In addition, participants will borrow books from the class library for outside reading. Workbook included.\nFor further information, text or call 919-729-2480 or email tony@v1da.net. ",
+        "html": "<P><SPAN>Do you want to learn Spanish? Do you travel to Spanish-speaking countries? Would knowing Spanish be helpful for your job? Is learning Spanish on your Bucket List? Why wait?</SPAN></P>\n<P CLASS=\"p1\"><I><SPAN>Spanish for Adults</SPAN></I></P>\n<P CLASS=\"p1\"><SPAN>6-week, 9 hour class for $90</SPAN></P>\n<P CLASS=\"p1\"><I><SPAN>When</SPAN></I><SPAN>:\u00a0</SPAN><SPAN>Thursdays 6:30-8:00pm March 29th through May 3rd</SPAN></P>\n<P CLASS=\"p1\"><I><SPAN>Where</SPAN></I><SPAN>:</SPAN><SPAN> The Rusted Hinge Marketplace, 106 E. Vance St. Zebulon, NC 27597</SPAN></P>\n<P CLASS=\"MsoNormal\"><SPAN>Does the thought of memorizing long lists of words make you dizzy? Do you still have nightmares of verb conjugation drills? </SPAN><SPAN>Comprehension and understanding\u00a0</SPAN>will be our focus - NOT Grammar and conjugation.</P>\n<P CLASS=\"p1\"><SPAN>Certified Spanish teacher, Tony Williams, will be leading this dynamic and highly-engaging class using the latest language-acquisition research. </SPAN><SPAN>Teaching Proficiency through Reading and Storytelling, or TPRS, targets the 100 most frequently used words in the Spanish language - NOT long lists of words to memorize. Spanish is taught in context through stories that are both understandable and entertaining. Class stories can be generated together as a group, come from a book, photo, video clip or movie.</SPAN></P>\n<P CLASS=\"MsoNormal\"><SPAN>Several different websites, podcasts, apps, videos, music, TV shows and movies will be presented for practice outside of class. </SPAN><SPAN>In addition, participants will borrow books from the class library for outside reading. </SPAN><SPAN>Workbook included.</SPAN><SPAN></SPAN></P>\n<P><SPAN><SPAN>For further information, text or call 919-729-2480 or email </SPAN><SPAN><A HREF=\"mailto:tony@v1da.net\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><SPAN>tony@v1da.net</SPAN></A></SPAN><SPAN>. </SPAN></SPAN></P>"
+      },
+      "id": "44108650160",
+      "url": "https://www.eventbrite.com/e/spanish-for-adults-zebulon-tickets-44108650160?aff=ebapi",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-29T18:30:00",
+        "utc": "2018-03-29T22:30:00Z"
+      },
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-05-03T20:00:00",
+        "utc": "2018-05-04T00:00:00Z"
+      },
+      "organization_id": "1961940114",
+      "created": "2018-03-12T15:50:46Z",
+      "changed": "2018-03-12T16:12:43Z",
+      "capacity": 20,
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       "capacity_is_custom": true,
       "status": "live",
       "currency": "USD",
@@ -4714,6 +6338,7 @@
       "source": "create_2.0",
       "is_free": true,
       "version": "3.0.0",
+<<<<<<< HEAD
       "logo_id": "42431451",
       "organizer_id": "12173392397",
       "venue_id": "20557272",
@@ -4739,10 +6364,38 @@
         "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42431451%2F171775734641%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C67%2C800%2C400&s=d310ca133cb7e9026e8dd4af22c830bf",
         "aspect_ratio": "2",
         "edge_color": "#592f5a",
+=======
+      "logo_id": "42089922",
+      "organizer_id": "15424688262",
+      "venue_id": "23656437",
+      "category_id": "115",
+      "subcategory_id": "15001",
+      "format_id": "9",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/44108650160/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 26,
+            "y": 0
+          },
+          "width": 1444,
+          "height": 722
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42089922%2F1961940114%2F1%2Foriginal.jpg?s=6cc15e4e180445688334129ed4da4165",
+          "width": 1497,
+          "height": 722
+        },
+        "id": "42089922",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F42089922%2F1961940114%2F1%2Foriginal.jpg?h=200&w=450&rect=26%2C0%2C1444%2C722&s=e73d504a997eb460f37262ebe93ebe51",
+        "aspect_ratio": "2",
+        "edge_color": "#ffffff",
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         "edge_color_set": true
       },
       "venue": {
         "address": {
+<<<<<<< HEAD
           "address_1": "40-15 Warren Street",
           "address_2": null,
           "city": "Queens",
@@ -4765,12 +6418,42 @@
         "name": "SL Lounge",
         "latitude": "40.74862999999999",
         "longitude": "-73.86993000000001"
+=======
+          "address_1": "106 East Vance Street",
+          "address_2": null,
+          "city": "Zebulon",
+          "region": "NC",
+          "postal_code": "27597",
+          "country": "US",
+          "latitude": "35.8211602",
+          "longitude": "-78.31215029999998",
+          "localized_address_display": "106 East Vance Street, Zebulon, NC 27597",
+          "localized_area_display": "Zebulon, NC",
+          "localized_multi_line_address_display": [
+            "106 East Vance Street",
+            "Zebulon, NC 27597"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23656437/",
+        "id": "23656437",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "The Rusted Hinge Marketplace",
+        "latitude": "35.8211602",
+        "longitude": "-78.31215029999998"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
       }
     }
   ],
   "location": {
+<<<<<<< HEAD
     "latitude": "40.712477",
     "within": "30.0",
     "longitude": "-74.006201"
+=======
+    "latitude": "35.779589",
+    "within": "30.0",
+    "longitude": "-78.638168"
+>>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
   }
 }
