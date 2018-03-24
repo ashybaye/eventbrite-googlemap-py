@@ -26,7 +26,7 @@ def places():
             # return placesJSON
             sndmap = Map(
                 identifier = "sndmap",
-                style = "height:80%;width:auto;margin:0;",
+                style = "height:85%;width:auto;margin:0;",
                 lat = placesJSON[0]['lat'],
                 lng = placesJSON[0]['lng'],
                 markers = placesJSON,
@@ -39,6 +39,15 @@ def places():
             return error.format_exception(
                 e,
                 target=self.__class__.__name__.lower(),
-                action='PUT')             
+                action='PUT')    
+    else:
+        defaultmap = Map(
+            identifier="view-side",
+            style = "height:85%;width:auto;margin:0;",
+            lat = 40.0,
+            lng = -95.0,
+            zoom = 4
+        )  
+        return render_template('map.html', title='Set up the route', form=form, defaultmap=defaultmap)                   
     return render_template('map.html', title='Set up the route', form=form) 
     

@@ -47,12 +47,18 @@
         </div>  
         <div class="col-sm-8">
             <div id="loading">
-                <img src= "/static/images/loading.gif">
+                <img src= "/static/images/loading.gif" style="width:50%, height:auto;">
             </div>
             <div id="google-map">
                 {% if sndmap %}
                     {{sndmap.js}}
                     {{sndmap.html}}
+                {% endif %}
+
+                <!-- show initial map of the US on first load -->
+                {% if defaultmap %}
+                    {{defaultmap.js}}
+                    {{defaultmap.html}}
                 {% endif %}
             </div>
         </div>
