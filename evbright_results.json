@@ -1,0 +1,711 @@
+{
+  "top_match_events": [
+    {
+      "hide_start_date": false,
+      "locale": "en_CA",
+      "ticket_classes": [],
+      "currency": "CAD",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 1050,
+          "height": 525
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F39792473%2F141495206375%2F1%2Foriginal.jpg?s=90eee5e91fc6a203856ffadef0cb762a",
+          "width": 1050,
+          "height": 525
+        },
+        "id": "39792473",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F39792473%2F141495206375%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C1050%2C525&s=d2429305113174153d87dac9f9e1b800",
+        "aspect_ratio": "2",
+        "edge_color": "#fffffd",
+        "edge_color_set": true
+      },
+      "id": "42330824636",
+      "privacy_setting": "unlocked",
+      "venue_id": "19132051",
+      "capacity": 18,
+      "start": {
+        "timezone": "America/Edmonton",
+        "local": "2018-04-07T19:00:00",
+        "utc": "2018-04-08T01:00:00Z"
+      },
+      "tx_time_limit": 480,
+      "created": "2018-01-18T20:45:47Z",
+      "logo_id": "39792473",
+      "source": "create_2.0",
+      "version": "3.0.0",
+      "listed": true,
+      "is_series": false,
+      "hide_end_date": false,
+      "status": "live",
+      "description": {
+        "text": "For our third annual Alberta Beer School we'll be working our way through 13 of our favourite beers from,\n13 different Alberta breweries in\n13 different styles.\nAnd Doug Adsit of The Green Bean Java Bistro has 5 delicious appetizers to pair up with those beers:\nAppetizer #1 Greek Style Alberta Salad\nAppetizer #2 Chicken Enchilada\nAppetizer #3 Beef and Potato Ragout\nAppetizer #4 Cheese Course\nAppetizer #5 Berry Pie\n\nCheers!",
+        "html": "<P>For our third annual Alberta Beer School we'll be working our way through 13 of our favourite beers from,</P>\n<P>13 different Alberta breweries in</P>\n<P>13 different styles.</P>\n<P>And Doug Adsit of The Green Bean Java Bistro has 5 delicious appetizers to pair up with those beers:</P>\n<P>Appetizer #1 Greek Style Alberta Salad</P>\n<P>Appetizer #2 Chicken Enchilada</P>\n<P>Appetizer #3 Beef and Potato Ragout</P>\n<P>Appetizer #4 Cheese Course</P>\n<P>Appetizer #5 Berry Pie</P>\n<P><BR></P>\n<P>Cheers!</P>"
+      },
+      "tld": ".ca",
+      "is_free": false,
+      "organization_id": "141495206375",
+      "is_series_parent": false,
+      "end": {
+        "timezone": "America/Edmonton",
+        "local": "2018-04-07T22:00:00",
+        "utc": "2018-04-08T04:00:00Z"
+      },
+      "format_id": "11",
+      "style_id": "82594743",
+      "name": {
+        "text": "Beer School: The Alberta Beer Experience",
+        "html": "Beer School: The Alberta Beer Experience"
+      },
+      "language": "en-ca",
+      "user_id": "141495206375",
+      "url": "https://www.eventbrite.ca/e/beer-school-the-alberta-beer-experience-tickets-42330824636?aff=ebapi",
+      "changed": "2018-03-22T17:50:07Z",
+      "venue": {
+        "address": {
+          "address_1": "11120 - 142 Street",
+          "address_2": null,
+          "city": "Edmonton",
+          "region": "AB",
+          "postal_code": null,
+          "country": "CA",
+          "latitude": "53.559652",
+          "longitude": "-113.56643600000001",
+          "localized_address_display": "11120 - 142 Street, Edmonton, AB",
+          "localized_area_display": "Edmonton, AB",
+          "localized_multi_line_address_display": [
+            "11120 - 142 Street",
+            "Edmonton, AB"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/19132051/",
+        "id": "19132051",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "The Green Bean Java Bistro",
+        "latitude": "53.559652",
+        "longitude": "-113.56643600000001"
+      },
+      "is_locked": false,
+      "shareable": true,
+      "capacity_is_custom": true,
+      "online_event": false,
+      "organizer_id": "8122283761",
+      "category_id": "110",
+      "is_reserved_seating": false
+    },
+    {
+      "hide_start_date": false,
+      "locale": "en_US",
+      "subcategory_id": "8020",
+      "is_series_parent": false,
+      "currency": "USD",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 11,
+            "y": 547
+          },
+          "width": 1056,
+          "height": 528
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41803354%2F215399559708%2F1%2Foriginal.jpg?s=156c25e584f1c18ee897e4e38f9bf1cb",
+          "width": 1080,
+          "height": 1080
+        },
+        "id": "41803354",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41803354%2F215399559708%2F1%2Foriginal.jpg?h=200&w=450&rect=11%2C547%2C1056%2C528&s=850fd4f8bc6ed20aa5198abb9e2535c1",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "id": "43888375312",
+      "privacy_setting": "unlocked",
+      "venue_id": "23606311",
+      "capacity": 50,
+      "source": "create_2.0",
+      "tx_time_limit": 480,
+      "created": "2018-03-06T15:59:19Z",
+      "logo_id": "41803354",
+      "start": {
+        "timezone": "America/New_York",
+        "local": "2018-03-25T11:00:00",
+        "utc": "2018-03-25T15:00:00Z"
+      },
+      "version": "3.0.0",
+      "listed": true,
+      "is_series": false,
+      "hide_end_date": false,
+      "status": "live",
+      "description": {
+        "text": "Barre class uses a combination of postures inspired by ballet, yoga, and pilates with beer. The barre is used as a prop to balance whole practicing exercises that focus on isometric strength training, combined with high reps of small range-of-motion movement. All levels of experience are welcome. Please bring your own yoga mat.\nClass is 1 hour. Check in at 11:00 am class starts at 11:15 am.",
+        "html": "<P><SPAN>Barre class uses a combination of postures inspired by ballet, yoga, and pilates with beer. The barre is used as a prop to balance whole practicing exercises that focus on isometric strength training, combined with high reps of small range-of-motion movement. All levels of experience are welcome. Please bring your own yoga mat.</SPAN></P>\n<P><SPAN>Class is 1 hour. Check in at 11:00 am class starts at 11:15 am.</SPAN></P>"
+      },
+      "tld": ".com",
+      "is_free": false,
+      "organization_id": "215399559708",
+      "ticket_classes": [],
+      "end": {
+        "timezone": "America/New_York",
+        "local": "2018-03-25T12:15:00",
+        "utc": "2018-03-25T16:15:00Z"
+      },
+      "format_id": "9",
+      "style_id": "83881202",
+      "name": {
+        "text": "Barre & Beer",
+        "html": "Barre &amp; Beer"
+      },
+      "language": "en-us",
+      "user_id": "215399559708",
+      "url": "https://www.eventbrite.com/e/barre-beer-tickets-43888375312?aff=ebapi",
+      "changed": "2018-03-21T20:26:12Z",
+      "venue": {
+        "address": {
+          "address_1": "1460 North Clinton Ave, Suite 0",
+          "address_2": null,
+          "city": "Bay Shore",
+          "region": "NY",
+          "postal_code": "11706",
+          "country": "US",
+          "latitude": "40.7446614",
+          "longitude": "-73.2664924",
+          "localized_address_display": "1460 North Clinton Ave, Suite 0, Bay Shore, NY 11706",
+          "localized_area_display": "Bay Shore, NY",
+          "localized_multi_line_address_display": [
+            "1460 North Clinton Ave, Suite 0",
+            "Bay Shore, NY 11706"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23606311/",
+        "id": "23606311",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "The Brewers Collective Beer Company",
+        "latitude": "40.7446614",
+        "longitude": "-73.2664924"
+      },
+      "is_locked": false,
+      "shareable": true,
+      "capacity_is_custom": true,
+      "online_event": false,
+      "organizer_id": "14135927648",
+      "category_id": "108",
+      "is_reserved_seating": false
+    },
+    {
+      "hide_start_date": false,
+      "locale": "en_US",
+      "subcategory_id": "8019",
+      "is_series_parent": false,
+      "currency": "USD",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 2160,
+          "height": 1080
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41120335%2F244717184504%2F1%2Foriginal.jpg?s=0a3c6b3ee7df534e41e666813fff07a5",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "41120335",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41120335%2F244717184504%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C2160%2C1080&s=c52819ecb742270dc88b4c4a79c9a56b",
+        "aspect_ratio": "2",
+        "edge_color": "#e0b5ae",
+        "edge_color_set": true
+      },
+      "id": "41959936299",
+      "privacy_setting": "unlocked",
+      "venue_id": "22956046",
+      "capacity": 210,
+      "source": "create_2.0",
+      "tx_time_limit": 480,
+      "created": "2018-01-08T18:12:24Z",
+      "logo_id": "41120335",
+      "start": {
+        "timezone": "America/Denver",
+        "local": "2018-03-28T18:00:00",
+        "utc": "2018-03-29T00:00:00Z"
+      },
+      "version": "3.0.0",
+      "listed": true,
+      "is_series": true,
+      "hide_end_date": false,
+      "status": "live",
+      "description": {
+        "text": "The Gateway,\u00a0Salt Lake Power Yoga,\u00a0Wasatch Brewery|Squatters Craft Beer\u00a0and\u00a0Yelp\u00a0introduce YOGA & BEER, a weekly event to clear your mind. The talented instructors at Salt Lake Power Yoga will lead this series with a power flow yoga, integrating optional beer drinking postures. All levels of yogis and beer drinkers are welcome. \nCOST | Yoga is free. Beers are $5*\nTIME | Classes will be held every Wednesday at 6 p.m.\u00a0 \nWHERE | The Gateway at 12 S. Rio Grande St., across from Morgan Jewelers.\n\n*Valid ID is required for all beer purchases.\u00a0",
+        "html": "<P><SPAN>The Gateway,\u00a0</SPAN><A HREF=\"https://www.facebook.com/SaltLakePowerYoga/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Salt Lake Power Yoga</A><SPAN>,\u00a0</SPAN><A HREF=\"https://www.facebook.com/WasatchBeers/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Wasatch Brewery</A><SPAN>|</SPAN><A HREF=\"https://www.facebook.com/squattersbeers/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Squatters Craft Beer</A><SPAN>\u00a0and\u00a0</SPAN><A HREF=\"https://www.facebook.com/yelp/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Yelp</A><SPAN>\u00a0introduce YOGA &amp; BEER, a weekly event to clear your mind. The talented instructors at Salt Lake Power Yoga will lead this series with a power flow yoga, integrating optional beer drinking postures. All levels of yogis and beer drinkers are welcome. </SPAN></P>\n<P><SPAN>COST | Yoga is free. Beers are $5*</SPAN></P>\n<P><SPAN>TIME | Classes will be held every Wednesday at 6 p.m.\u00a0 </SPAN></P>\n<P><SPAN>WHERE | The Gateway at 12 S. Rio Grande St., across from Morgan Jewelers.</SPAN></P>\n<P><BR></P>\n<P><SPAN>*Valid ID is required for all beer purchases.\u00a0</SPAN></P>"
+      },
+      "tld": ".com",
+      "is_free": true,
+      "series_id": "41959923260",
+      "ticket_classes": [],
+      "end": {
+        "timezone": "America/Denver",
+        "local": "2018-03-28T19:00:00",
+        "utc": "2018-03-29T01:00:00Z"
+      },
+      "format_id": "9",
+      "style_id": "82326271",
+      "organization_id": "186838545369",
+      "name": {
+        "text": "Yoga & Beer ",
+        "html": "Yoga &amp; Beer "
+      },
+      "language": "en-us",
+      "user_id": "186838545369",
+      "url": "https://www.eventbrite.com/e/yoga-beer-tickets-41959936299?aff=ebapi",
+      "changed": "2018-02-20T00:30:04Z",
+      "venue": {
+        "address": {
+          "address_1": "12 South Rio Grande Street",
+          "address_2": null,
+          "city": "Salt Lake City",
+          "region": "UT",
+          "postal_code": "84101",
+          "country": "US",
+          "latitude": "40.76907689999999",
+          "longitude": "-111.9043661",
+          "localized_address_display": "12 South Rio Grande Street, Salt Lake City, UT 84101",
+          "localized_area_display": "Salt Lake City, UT",
+          "localized_multi_line_address_display": [
+            "12 South Rio Grande Street",
+            "Salt Lake City, UT 84101"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/22956046/",
+        "id": "22956046",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "12 S Rio Grande St",
+        "latitude": "40.76907689999999",
+        "longitude": "-111.9043661"
+      },
+      "is_locked": false,
+      "shareable": true,
+      "capacity_is_custom": true,
+      "online_event": false,
+      "organizer_id": "16470010654",
+      "category_id": "108",
+      "is_reserved_seating": false
+    },
+    {
+      "hide_start_date": false,
+      "locale": "en_AU",
+      "ticket_classes": [],
+      "currency": "AUD",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 58
+          },
+          "width": 1920,
+          "height": 960
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40946051%2F215180950078%2F1%2Foriginal.jpg?s=699196677848367496395b40df91b462",
+          "width": 1920,
+          "height": 1080
+        },
+        "id": "40946051",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F40946051%2F215180950078%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C58%2C1920%2C960&s=984c1e94488ab05c1f253868ddca32c8",
+        "aspect_ratio": "2",
+        "edge_color": null,
+        "edge_color_set": true
+      },
+      "id": "43189304372",
+      "privacy_setting": "unlocked",
+      "venue_id": "20765262",
+      "capacity": 1000,
+      "start": {
+        "timezone": "Australia/Sydney",
+        "local": "2018-04-07T11:00:00",
+        "utc": "2018-04-07T01:00:00Z"
+      },
+      "tx_time_limit": 480,
+      "created": "2018-02-15T05:18:11Z",
+      "logo_id": "40946051",
+      "source": "create_2.0",
+      "version": "3.0.0",
+      "listed": true,
+      "is_series": false,
+      "hide_end_date": false,
+      "status": "live",
+      "description": {
+        "text": "What comes with 10 years of supplying Australians with craft beer? A tonne of beer related merchandise!\nCome down to Beer Cartel on\u00a0Saturday\u00a0 April 7th\u00a0as we open up our Artarmon warehouse and put a whole heap of merch up for sale - think T-shirts, caps, books, glassware and much more. All proceeds go to Beyond Blue, supporting Male Depression and Mens Cancer.\nAnd if that\u2019s not good enough, we have invited down Akasha, Batch, Philter, Sauce and Wayward to pour you some tasty samples of their awesome beers. We will have 6 pack and case specials on all day, plus Jackalope Food Co. cooking up some delicious Texan BBQ!\nThere is plenty of parking and the event is undercover, so come down and grab yourself some kick ass merch, try some tasty beer and support a good cause.",
+        "html": "<P CLASS=\"MsoNormal\">What comes with 10 years of supplying Australians with craft beer? A tonne of beer related merchandise!</P>\n<P CLASS=\"MsoNormal\">Come down to Beer Cartel on\u00a0<SPAN CLASS=\"m_6181286084965426230gmail-aBn\"><SPAN CLASS=\"m_6181286084965426230gmail-aQJ\">Saturday\u00a0 April 7</SPAN></SPAN>th\u00a0as we open up our Artarmon warehouse and put a whole heap of merch up for sale - think T-shirts, caps, books, glassware and much more. All proceeds go to Beyond Blue, supporting Male Depression and Mens Cancer.</P>\n<P CLASS=\"MsoNormal\"><SPAN>And if that\u2019s not good enough, we have invited down Akasha, Batch, Philter, Sauce and Wayward to pour you some tasty samples of their awesome beers. We will have 6 pack and case specials on all day, plus Jackalope Food Co. cooking up some delicious Texan BBQ!</SPAN></P>\n<P CLASS=\"MsoNormal\">There is plenty of parking and the event is undercover, so come down and grab yourself some kick ass merch, try some tasty beer and support a good cause.</P>"
+      },
+      "tld": ".com.au",
+      "is_free": true,
+      "organization_id": "215180950078",
+      "is_series_parent": false,
+      "end": {
+        "timezone": "Australia/Sydney",
+        "local": "2018-04-07T16:00:00",
+        "utc": "2018-04-07T06:00:00Z"
+      },
+      "format_id": "5",
+      "style_id": "83350858",
+      "name": {
+        "text": "Beer and Merch Fest",
+        "html": "Beer and Merch Fest"
+      },
+      "language": "en-au",
+      "user_id": "215180950078",
+      "url": "https://www.eventbrite.com.au/e/beer-and-merch-fest-tickets-43189304372?aff=ebapi",
+      "changed": "2018-02-15T22:19:20Z",
+      "venue": {
+        "address": {
+          "address_1": "87 Reserve Road",
+          "address_2": "#9",
+          "city": "Artarmon",
+          "region": "NSW",
+          "postal_code": "2064",
+          "country": "AU",
+          "latitude": "-33.815608",
+          "longitude": "151.18678",
+          "localized_address_display": "87 Reserve Road #9, Artarmon, NSW 2064",
+          "localized_area_display": "Artarmon, NSW",
+          "localized_multi_line_address_display": [
+            "87 Reserve Road",
+            "#9",
+            "Artarmon, NSW 2064"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/20765262/",
+        "id": "20765262",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Beer Cartel",
+        "latitude": "-33.815608",
+        "longitude": "151.18678"
+      },
+      "is_locked": false,
+      "shareable": true,
+      "capacity_is_custom": true,
+      "online_event": false,
+      "organizer_id": "14191506999",
+      "category_id": "110",
+      "is_reserved_seating": false
+    },
+    {
+      "hide_start_date": false,
+      "locale": "en_US",
+      "subcategory_id": "10001",
+      "is_series_parent": false,
+      "currency": "USD",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 0
+          },
+          "width": 2160,
+          "height": 1080
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F38882290%2F46070202671%2F1%2Foriginal.jpg?s=9402f7f6d6de00299674c25bd9d44d18",
+          "width": 2160,
+          "height": 1080
+        },
+        "id": "38882290",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F38882290%2F46070202671%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C0%2C2160%2C1080&s=61d91347c2510f3a16c9cc286893026d",
+        "aspect_ratio": "2",
+        "edge_color": "#eedf82",
+        "edge_color_set": true
+      },
+      "id": "41464559614",
+      "privacy_setting": "unlocked",
+      "venue_id": "17746330",
+      "capacity": 5620,
+      "source": "create_2.0",
+      "tx_time_limit": 480,
+      "vanity_url": "https://beerfestapril7.eventbrite.com",
+      "logo_id": "38882290",
+      "start": {
+        "timezone": "America/Chicago",
+        "local": "2018-04-07T12:00:00",
+        "utc": "2018-04-07T17:00:00Z"
+      },
+      "version": "3.0.0",
+      "created": "2017-12-20T18:16:03Z",
+      "listed": true,
+      "is_series": false,
+      "hide_end_date": false,
+      "status": "live",
+      "description": {
+        "text": "Join fellow beer lovers as we taste, drink, and cheers to great beers at Chicago Beer Fest!\nEnjoy samples from multiple breweries - there will be over 25 different beers to sample!\u00a0\nWant to have your beer featured at Chicago Beer Fest? E-mail us at Beer@RiverNorthFests.com\u00a0now to find out how to sample at any of our upcoming events!\n\nFREE TICKETS/RAISE MONEY FOR YOUR CAUSE:\u00a0See below for more info.\n\nFREE STUFF!\nAll attendees will also receive the following Freebies*: Use code 'CTS2' for 2 FREE rides from Lyft (up to $5 off each of your first two rides) \u2013 2 FREE rides in an affordable ride share with Via using promo code 'CTS2' \u2013 Up to $10 towards a FREE taxi ride from Curb with promo code 'CTS10'\u2013 $25 in on-demand laundry service from Tide Spin with promo code 'CHI25' \u2013 \u00a0$10 in FREE food at your favorite restaurants like Freshii, Protein Bar, Rockit & more from Ritual! *All offers valid for first time users only and subject to change without notice. Click HERE for more info!\nPHOTO CONTEST:Enter to win our PHOTO CONTEST by posting pictures to Facebook or Instagram using \"#ChicagoBeerFest\" Our panel of judges will go through the pictures and winners will be contacted\u00a0after the event!\nPICS FROM LAST TIME:\u00a0Check out pictures from our last beer fest by clicking\u00a0HERE!\nYou can also check out our last Chicago Beer Fest by clicking the video below!\n\nFREE TICKETS/RAISE MONEY FOR YOUR CAUSE:\n-Fundraising Opportunity: Are you trying to raise money for a certain cause? Email Beer@RiverNorthFests.com\u00a0for more info!-Celebrate your birthday at the fest\u00a0and your ticket is free! Email\u00a0Beer@RiverNorthFests.com\u00a0for more info-Want to earn a free ticket and some cash for spreading the word? Email\u00a0Beer@RiverNorthFests.com\u00a0for more info!\n\n\n\nRules, Regulations & Disclaimers:\u00a0\nAll guests must be 21+ with a valid government issued ID that will be checked by security prior to entrance. Breweries subject to change. Tickets include tastings. Enjoy responsibly. We reserve the right to curtail service to anyone if intoxicated. Please be aware that this event will comply with the Illinois Liquor Control Act 235 ILCS 5/6-16(a) \u00a0A valid ticket with scannable QR code is required by all guests to enter event. It is recommended to print a paper ticket to prevent any technology complications which would prevent your ticket from displaying on your phone. There is no guest list. Each ticket must be scanned. Security reserves the right to inspect all bags and persons. Absolutely no outside food or beverage may be brought into the event. Guests who are deemed intoxicated (or otherwise unfit), will be denied entry and no refunds will be given. We want all guests to enjoy themselves, but our number one priority is the safety of all guests. Any ticketing/technical issues will be handled by Eventbrite.com. Please contact them directly at\u00a0https://www.eventbrite.com/contact-us/. Sorry \u2013 no refunds or price adjustments. The Eventbrite system does not allow us to restrict people who are underage from buying tickets. If you are not 21 and purchase a ticket, you will not be allowed into the event. \u00a0",
+        "html": "<P>Join fellow beer lovers as we taste, drink, and cheers to great beers at Chicago Beer Fest!</P>\n<P><SPAN>Enjoy samples from multiple breweries - there will be over 25 different beers to sample!\u00a0</SPAN></P>\n<P>Want to have your beer featured at Chicago Beer Fest? E-mail us at <A HREF=\"mailto:Beer@RiverNorthFests.com\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Beer@RiverNorthFests.com</A>\u00a0now to find out how to sample at any of our upcoming events!</P>\n<P><IMG ALT=\"Beer Fest Picture Collage\" SRC=\"https://cdn.evbuc.com/eventlogos/45749953/chicagobeerfestpiccollage47.png\"></P>\n<P><STRONG>FREE TICKETS/RAISE MONEY FOR YOUR CAUSE:\u00a0</STRONG><SPAN>See below for more info.</SPAN></P>\n<P><SPAN><IMG ALT=\"Chicago Beer Fest Party - Enjoy samples from multiple breweries - there will be over 25 different beers to sample!\" SRC=\"https://cdn.evbuc.com/eventlogos/45749953/chicagobeerfest47eventbrite.jpg\"></SPAN></P>\n<P><STRONG>FREE STUFF!</STRONG></P>\n<P CLASS=\"p1\"><SPAN CLASS=\"s1\">All attendees will also receive the following <A HREF=\"http://chifreebies.weebly.com/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Freebies</A>*: Use code 'CTS2' for 2 FREE rides from <A HREF=\"http://chifreebies.weebly.com/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Lyft</A> (up to $5 off each of your first two rides) \u2013 2 FREE rides in an affordable ride share with <A HREF=\"http://chifreebies.weebly.com/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Via</A> using promo code 'CTS2' \u2013 Up to $10 towards a FREE taxi ride from <A HREF=\"http://chifreebies.weebly.com/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Curb</A> with promo code 'CTS10'\u2013 $25 in on-demand laundry service from <A HREF=\"http://chifreebies.weebly.com/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Tide Spin</A> with promo code 'CHI25' \u2013 \u00a0$10 in FREE food at your favorite restaurants like Freshii, Protein Bar, Rockit &amp; more from <A HREF=\"http://chifreebies.weebly.com/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Ritual</A>! *All offers valid for first time users only and subject to change without notice. Click <A HREF=\"http://chifreebies.weebly.com/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">HERE</A> for more info!</SPAN></P>\n<P><STRONG>PHOTO CONTEST:</STRONG><BR>Enter to win our PHOTO CONTEST by posting pictures to Facebook or Instagram using \"#ChicagoBeerFest\" Our panel of judges will go through the pictures and winners will be <SPAN>contacted</SPAN>\u00a0after the event!</P>\n<P><STRONG>PICS FROM LAST TIME:\u00a0</STRONG><SPAN>Check out pictures from our last beer fest by clicking\u00a0</SPAN><SPAN></SPAN><A HREF=\"https://www.facebook.com/pg/ChicagoTwentySomething/photos/?tab=album&album_id=10155016214109422\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">HERE</A>!</P>\n<P><STRONG>You can also check out our last Chicago Beer Fest by clicking the video below!</STRONG></P>\n<P><STRONG><A HREF=\"https://vimeo.com/253500364\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><IMG SRC=\"https://cdn.evbuc.com/eventlogos/45749953/beerplaybutton.jpg\"></IMG></A></STRONG></P>\n<P><STRONG>FREE TICKETS/RAISE MONEY FOR YOUR CAUSE:</STRONG></P>\n<P>-Fundraising Opportunity: Are you trying to raise money for a certain cause? Email <A HREF=\"mailto:Beer@RiverNorthFests.com\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Beer@RiverNorthFests.com</A>\u00a0for more info!<BR>-Celebrate your birthday <SPAN>at the fest</SPAN>\u00a0and your ticket is free! Email\u00a0<A HREF=\"mailto:Beer@RiverNorthFests.com\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Beer@RiverNorthFests.com</A>\u00a0for more info<BR>-Want to earn a free ticket and some cash for spreading the word? Email\u00a0<A HREF=\"mailto:Beer@RiverNorthFests.com\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Beer@RiverNorthFests.com</A>\u00a0for more info!</P>\n<P><BR></P>\n<P><BR></P>\n<P><BR></P>\n<P><STRONG>Rules, Regulations &amp; Disclaimers:\u00a0</STRONG></P>\n<P CLASS=\"MsoNormal\">All guests must be 21+ with a valid government issued ID that will be checked by security prior to entrance. Breweries subject to change. <SPAN>Tickets include tastings. Enjoy responsibly. We reserve the right to curtail service to anyone if intoxicated. Please be aware that this event will comply with the Illinois Liquor Control Act 235 ILCS 5/6-16(a) \u00a0</SPAN>A valid ticket with scannable QR code is required by all guests to enter event. It is recommended to print a paper ticket to prevent any technology complications which would prevent your ticket from displaying on your phone. There is no guest list. Each ticket must be scanned. Security reserves the right to inspect all bags and persons. Absolutely no outside food or beverage may be brought into the event. Guests who are deemed intoxicated (or otherwise unfit), will be denied entry and no refunds will be given. We want all guests to enjoy themselves, but our number one priority is the safety of all guests. Any ticketing/technical issues will be handled by Eventbrite.com. Please contact them directly at\u00a0<A HREF=\"https://www.eventbrite.com/contact-us/\" TARGET=\"_blank\" REL=\"noopener noreferrer noopener noreferrer\">https://www.eventbrite.com/contact-us/</A>. Sorry \u2013 no refunds or price adjustments. The Eventbrite system does not allow us to restrict people who are underage from buying tickets. If you are not 21 and purchase a ticket, you will not be allowed into the event. \u00a0</P>"
+      },
+      "tld": ".com",
+      "is_free": false,
+      "organization_id": "51344102344",
+      "ticket_classes": [],
+      "end": {
+        "timezone": "America/Chicago",
+        "local": "2018-04-07T16:00:00",
+        "utc": "2018-04-07T21:00:00Z"
+      },
+      "format_id": "11",
+      "style_id": "81448445",
+      "name": {
+        "text": "Chicago Beer Fest - A River North Beer Tasting!",
+        "html": "Chicago Beer Fest - A River North Beer Tasting!"
+      },
+      "language": "en-us",
+      "user_id": "51344102344",
+      "url": "https://www.eventbrite.com/e/chicago-beer-fest-a-river-north-beer-tasting-tickets-41464559614?aff=ebapi",
+      "changed": "2018-03-23T15:51:27Z",
+      "venue": {
+        "address": {
+          "address_1": "149 West Kinzie Street",
+          "address_2": null,
+          "city": "Chicago",
+          "region": "IL",
+          "postal_code": "60654",
+          "country": "US",
+          "latitude": "41.8888527",
+          "longitude": "-87.63303530000002",
+          "localized_address_display": "149 West Kinzie Street, Chicago, IL 60654",
+          "localized_area_display": "Chicago, IL",
+          "localized_multi_line_address_display": [
+            "149 West Kinzie Street",
+            "Chicago, IL 60654"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/17746330/",
+        "id": "17746330",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "Old Crow Smokehouse River North",
+        "latitude": "41.8888527",
+        "longitude": "-87.63303530000002"
+      },
+      "is_locked": false,
+      "shareable": true,
+      "capacity_is_custom": true,
+      "online_event": false,
+      "organizer_id": "8375599646",
+      "category_id": "110",
+      "is_reserved_seating": false
+    }
+  ],
+  "pagination": {
+    "object_count": 2,
+    "page_number": 1,
+    "page_size": 50,
+    "page_count": 1,
+    "has_more_items": false
+  },
+  "events": [
+    {
+      "name": {
+        "text": "Made from Scratch: A Backpocket Event",
+        "html": "Made from Scratch: A Backpocket Event"
+      },
+      "description": {
+        "text": "Join us in the Taproom Thursday, April 5th as Backpocket Brewing and Scratch Cupcakery are teaming up for another can't miss event! Our experts have hand selected five mini Scratch cupcakes and five 5.5 ounce Backpocket beers that pair great together!\u00a0 Don't just take our word, buy your ticket now to try it for yourself!\u00a0",
+        "html": "<P><SPAN>Join us in the Taproom Thursday, April 5th as Backpocket Brewing and Scratch Cupcakery are teaming up for another can't miss event! Our experts have hand selected five mini Scratch cupcakes and five 5.5 ounce Backpocket beers that pair great together!\u00a0 Don't just take our word, buy your ticket now to try it for yourself!\u00a0</SPAN></P>"
+      },
+      "id": "43410600274",
+      "url": "https://www.eventbrite.com/e/made-from-scratch-a-backpocket-event-tickets-43410600274?aff=ebapi",
+      "start": {
+        "timezone": "America/Chicago",
+        "local": "2018-04-05T19:00:00",
+        "utc": "2018-04-06T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Chicago",
+        "local": "2018-04-05T20:30:00",
+        "utc": "2018-04-06T01:30:00Z"
+      },
+      "organization_id": "203409822964",
+      "created": "2018-02-21T20:27:16Z",
+      "changed": "2018-03-02T21:06:46Z",
+      "capacity": 30,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "41402587",
+      "organizer_id": "12982711248",
+      "venue_id": "18447834",
+      "category_id": "110",
+      "subcategory_id": "10001",
+      "format_id": "11",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/43410600274/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 86
+          },
+          "width": 1920,
+          "height": 960
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41402587%2F203409822964%2F1%2Foriginal.jpg?s=f9c3dff527c613949bbfce7a7dd6a33b",
+          "width": 1920,
+          "height": 1080
+        },
+        "id": "41402587",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41402587%2F203409822964%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C86%2C1920%2C960&s=acbd76512bbca44ee29f82fbaf8aa7c6",
+        "aspect_ratio": "2",
+        "edge_color": "#91ddf7",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "903 Quarry Road",
+          "address_2": null,
+          "city": "Coralville",
+          "region": "IA",
+          "postal_code": "52241",
+          "country": "US",
+          "latitude": "41.6822688",
+          "longitude": "-91.55972759999997",
+          "localized_address_display": "903 Quarry Road, Coralville, IA 52241",
+          "localized_area_display": "Coralville, IA",
+          "localized_multi_line_address_display": [
+            "903 Quarry Road",
+            "Coralville, IA 52241"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/18447834/",
+        "id": "18447834",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "903 Quarry Rd",
+        "latitude": "41.6822688",
+        "longitude": "-91.55972759999997"
+      }
+    },
+    {
+      "name": {
+        "text": "Music for Meals Benefit Concert",
+        "html": "Music for Meals Benefit Concert"
+      },
+      "description": {
+        "text": "Elizabeth Moen, an Iowa musical legend-in-the-making, will headline this year's \"Music for Meals\" benefit concert--an event designed to raise vital funds needed to help the Coralville Community Food Pantry continue to transform Coralville into a place that is free of hunger.\u00a0\nGuests will enjoy food, drinks (wine & beer available for purchase), a silent auction, and live music showcasing the likes of Moen and other talented local artists.\u00a0This year's event will be held at North Ridge Pavilion in Coralville, to create a more intimate atmosphere.\nTickets are $20/person. Groups of 8 can reserve a VIP Table for $200, which includes 8 complimentary drink tickets, and 8 silent auction $5 coupons.",
+        "html": "<P><STRONG>Elizabeth Moen<A HREF=\"https://elizabethmoen.com/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"></A>, </STRONG>an Iowa musical legend-in-the-making<STRONG>,</STRONG> will headline this year's \"Music for Meals\" benefit concert--an event designed to raise vital funds needed to help the <STRONG>Coralville Community Food Pantry</STRONG> continue to transform Coralville into a place that is free of hunger.\u00a0</P>\n<P>Guests will enjoy food, drinks (wine &amp; beer available for purchase), a silent auction, and live music showcasing the likes of Moen and other talented local artists.\u00a0This year's event will be held at North Ridge Pavilion in Coralville, to create a more intimate atmosphere.</P>\n<P>Tickets are <STRONG>$20</STRONG>/person. Groups of 8 can reserve a VIP Table for $200, which includes 8 complimentary drink tickets, and 8 silent auction $5 coupons.</P>"
+      },
+      "id": "43411569172",
+      "url": "https://www.eventbrite.com/e/music-for-meals-benefit-concert-tickets-43411569172?aff=ebapi",
+      "start": {
+        "timezone": "America/Chicago",
+        "local": "2018-04-27T19:00:00",
+        "utc": "2018-04-28T00:00:00Z"
+      },
+      "end": {
+        "timezone": "America/Chicago",
+        "local": "2018-04-27T21:00:00",
+        "utc": "2018-04-28T02:00:00Z"
+      },
+      "organization_id": "207282264625",
+      "created": "2018-02-21T20:51:04Z",
+      "changed": "2018-03-06T21:37:36Z",
+      "capacity": 54,
+      "capacity_is_custom": true,
+      "status": "live",
+      "currency": "USD",
+      "listed": true,
+      "shareable": true,
+      "online_event": false,
+      "tx_time_limit": 480,
+      "hide_start_date": false,
+      "hide_end_date": false,
+      "locale": "en_US",
+      "is_locked": false,
+      "privacy_setting": "unlocked",
+      "is_series": false,
+      "is_series_parent": false,
+      "is_reserved_seating": false,
+      "source": "create_2.0",
+      "is_free": false,
+      "version": "3.0.0",
+      "logo_id": "41221548",
+      "organizer_id": "16874245629",
+      "venue_id": "23401650",
+      "category_id": "103",
+      "subcategory_id": "3007",
+      "format_id": "6",
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/43411569172/",
+      "logo": {
+        "crop_mask": {
+          "top_left": {
+            "x": 0,
+            "y": 80
+          },
+          "width": 1280,
+          "height": 640
+        },
+        "original": {
+          "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41221548%2F207282264625%2F1%2Foriginal.jpg?s=ecc9e917fd8d595d14bab49585fd7d01",
+          "width": 1280,
+          "height": 720
+        },
+        "id": "41221548",
+        "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41221548%2F207282264625%2F1%2Foriginal.jpg?h=200&w=450&rect=0%2C80%2C1280%2C640&s=306355dcd6368a7048e6c59850b84ea9",
+        "aspect_ratio": "2",
+        "edge_color": "#747474",
+        "edge_color_set": true
+      },
+      "venue": {
+        "address": {
+          "address_1": "2250 Holiday Road",
+          "address_2": null,
+          "city": "Coralville",
+          "region": "IA",
+          "postal_code": "52241",
+          "country": "US",
+          "latitude": "41.69411760000001",
+          "longitude": "-91.5946783",
+          "localized_address_display": "2250 Holiday Road, Coralville, IA 52241",
+          "localized_area_display": "Coralville, IA",
+          "localized_multi_line_address_display": [
+            "2250 Holiday Road",
+            "Coralville, IA 52241"
+          ]
+        },
+        "resource_uri": "https://www.eventbriteapi.com/v3/venues/23401650/",
+        "id": "23401650",
+        "age_restriction": null,
+        "capacity": null,
+        "name": "North Ridge Pavilion",
+        "latitude": "41.69411760000001",
+        "longitude": "-91.5946783"
+      }
+    }
+  ],
+  "location": {
+    "latitude": "41.661128",
+    "within": "30.0",
+    "longitude": "-91.530166"
+  }
+}

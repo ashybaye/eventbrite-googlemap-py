@@ -1,6 +1,7 @@
 from flask import Flask,jsonify
 import json, requests, csv, pprint
 import uuid
+import sys
 
 def CreateJSON(s,e,k,dt_start,dt_end):
 
@@ -84,10 +85,9 @@ def CreateJSON(s,e,k,dt_start,dt_end):
         if abs_diff > (2 * within):
             delta_true_lat = list_lats[pos+1] - list_lats[pos]
             delta_true_lng = list_lngs[pos+1] - list_lngs[pos]
-            points = int(abs(delta_true_lat) // within)
+            points = int(abs(delta_true_lat) // within) + 1
             if points < 2:
                 points = 2
-            else: points = points
             adjustment_lat = delta_true_lat/points
             adjustment_lng = delta_true_lng/points
             for i in range(0, points):
@@ -99,9 +99,7 @@ def CreateJSON(s,e,k,dt_start,dt_end):
                 list_lngs[pos] = new_lngi
             temp_origin_lat = list_lats[pos+1]
             temp_origin_lng = list_lngs[pos+1]
-        elif abs_diff > within:
-            list_lats_short.append(list_lats[pos+1])
-            list_lngs_short.append(list_lngs[pos+1])
+
         else:
             list_lats_short.append(list_lats[pos+1])
             list_lngs_short.append(list_lngs[pos+1])
@@ -110,9 +108,9 @@ def CreateJSON(s,e,k,dt_start,dt_end):
     # for i, k in zip(list_lats_short, list_lngs_short):
     #     print(i, k)
 
-    #Checking longitudes
-    # print("Checking longitudes:")
-    # print("Length of list_lngs_short is:", len(list_lngs_short))
+    # Checking longitudes
+    print("Checking longitudes:")
+    print("Length of list_lngs_short is:", len(list_lngs_short))
 
     temp_origin_lat = list_lats_short[0]
     temp_origin_lng = list_lngs_short[0]
@@ -121,10 +119,9 @@ def CreateJSON(s,e,k,dt_start,dt_end):
         if abs_diff > (2 * within):
             delta_true_lat = list_lats_short[pos+1] - list_lats_short[pos]
             delta_true_lng = list_lngs_short[pos+1] - list_lngs_short[pos]
-            points = int(abs(delta_true_lng) // within)
+            points = int(abs(delta_true_lng) // within) + 1
             if points < 2:
                 points = 2
-            else: points = points
             adjustment_lat = delta_true_lat/points
             adjustment_lng = delta_true_lng/points
             for i in range(0, points):
@@ -137,9 +134,6 @@ def CreateJSON(s,e,k,dt_start,dt_end):
             temp_origin_lat = list_lats_short[pos+1]
             temp_origin_lng = list_lngs_short[pos+1]
 
-        elif abs_diff > within:
-            list_lats_short2.append(list_lats_short[pos+1])
-            list_lngs_short2.append(list_lngs_short[pos+1])
         else:
             list_lats_short2.append(list_lats_short[pos+1])
             list_lngs_short2.append(list_lngs_short[pos+1])
@@ -154,18 +148,24 @@ def CreateJSON(s,e,k,dt_start,dt_end):
 
     #making final list cleaning
     for pos in range(1, len(list_lats_short2)):
-        abs_diff = abs(list_lats_short2[pos] - temp_origin_lat)
-        if abs_diff > (2.0 * within):
-            list_lats_short3.append(list_lats_short2[pos])
-            list_lngs_short3.append(list_lngs_short2[pos])
+        abs_diff_lat = abs(list_lats_short2[pos] - temp_origin_lat)
+        abs_diff_lng = abs(list_lngs_short2[pos] - temp_origin_lng)
+        # print("Abs dif in round 3 is: ", abs_diff)
+        # print("temp_origin_lat is: ", temp_origin_lat)
+        if abs_diff_lat > 1.2 * within or abs_diff_lng > 1.2 * within:
+            # print("In 2within round3 loop...")
+            list_lats_short3.append(round(list_lats_short2[pos], 7))
+            list_lngs_short3.append(round(list_lngs_short2[pos], 7))
             temp_origin_lat = list_lats_short2[pos]
             temp_origin_lng = list_lngs_short2[pos]
-        else:
-            pass
+
+    # print("The list after longitudes: ")
+    # for i, k in zip(list_lats_short2, list_lngs_short2):
+    #     print(i, k)
 
     #append the final destination
-    print(list_lats[-1])
-    print(list_lngs[-1])
+    # print(list_lats[-1])
+    # print(list_lngs[-1])
     list_lats_short3.append(list_lats[-1])
     list_lngs_short3.append(list_lngs[-1])
 
@@ -179,11 +179,10 @@ def CreateJSON(s,e,k,dt_start,dt_end):
     # print("The initial coord list is: ")
     # for i, k in zip(list_lats, list_lngs):
     #     print(i, k)
-    #
+
     # print("The final coordinates list is: ")
     # for i, k in zip(list_lats_short3, list_lngs_short3):
     #     print(i, k)
-
     """
     4. Submit the 'cleaned' locations to the Eventbright API.
     """
@@ -241,10 +240,17 @@ def CreateJSON(s,e,k,dt_start,dt_end):
                 #generate list of lat and long
                 longitude = round(float(data['events'][event_num]['venue']['address']['longitude']), 7)
                 latitude = round(float(data['events'][event_num]['venue']['address']['latitude']), 7)
-                name = data['events'][event_num]['name']['text']
-
             except (RuntimeError, TypeError, NameError):
-                longitude = latitude = name = description = 'Empty'
+                longitude = latitude = 'Empty'
+                pass
+
+            try:
+                name = data['events'][event_num]['name']['text']
+                if name != None:
+                    name = ' '.join(name.split())
+                    name = ((name[:42] + '..') if len(name) > 44 else name)
+            except (RuntimeError, TypeError, NameError):
+                name = 'Empty'
                 pass
 
             try:
@@ -253,75 +259,88 @@ def CreateJSON(s,e,k,dt_start,dt_end):
                     description = ' '.join(description_raw.split())
                     description = ((description[:110] + '..') if len(description) > 110 else description)
                 else:
-                    description = 'No description.'    
+                    description = 'No description_n'
             except (RuntimeError, TypeError, NameError):
-                description = 'No description.'
+                description = 'No description_e'
                 pass
 
             try:
                 start_datetime = data['events'][event_num]['start']['local']
-                if start_datetime == '':start_datetime = "No start time info."
+                if start_datetime != None:
+                    start_datetime = ' '.join(start_datetime.split('T'))
+                else:
+                    start_datetime = ''
             except (RuntimeError, TypeError, NameError):
-                start_datetime = 'No info'
+                start_datetime = 'strdt_e'
                 pass
 
             try:
                 end_datetime = data['events'][event_num]['end']['local']
-                if end_datetime == '':end_datetime = "No end time info."
+                if end_datetime != None:
+                    end_datetime = ' '.join(end_datetime.split('T'))
+                else:
+                    start_datetime = ''
             except (RuntimeError, TypeError, NameError):
-                start_datetime = 'No info'
-                pass
-
-            try:
-                end_datetime = data['events'][event_num]['end']['local']
-                if end_datetime == '':end_datetime = "No end time info."
-            except (RuntimeError, TypeError, NameError):
-                end_datetime = 'No info'
+                end_datetime = 'enddt_e'
                 pass
 
             try:
                 event_url = data['events'][event_num]['url']
-                if event_url == '': event_url = "No url."
+                if  event_url == None:
+                    event_url = ''
             except (RuntimeError, TypeError, NameError):
-                event_url = 'No info'
+                event_url = ''
                 pass
 
             try:
                 image_logo = data['events'][event_num]['logo']['url']
-                if image_logo == None: image_logo = 'No image'
-
+                if  image_logo == None:
+                    image_logo = ''
             except (RuntimeError, TypeError, NameError):
                 image_logo = ''
                 pass
 
             try:
                 # venue_name = ''
-                # venue_name = data['events'][event_num]['venue']['name']
-                if data['events'][event_num]['venue']['name'] != None: 
-                    venue_name = data['events'][event_num]['venue']['name']
-                else: 
-                    venue_name = 'No venue name.'
-
+                venue_name = data['events'][event_num]['venue']['name']
+                if venue_name == None:
+                    venue_name = 'No venue name_n'
             except (RuntimeError, TypeError, NameError):
-                venue_name = 'No venue name'
+                venue_name = 'No venue name_e'
                 pass
 
             try:
-                venue_address = data['events'][event_num]['venue']['address']['localized_address_display']
-                if venue_address == '': venue_address = 'No venue address.'
+                venue_address2 = data['events'][event_num]['venue']['address']['localized_address_display']
+                if venue_address2 == None:
+                    venue_address2 = 'No venue address_n'
+                    # print("The venue address: ", venue_address2)
             except (RuntimeError, TypeError, NameError):
-                venue_address = 'No venue address'
+                print("Error: ", sys.exc_info()[0])
+                venue_address2 = 'No venue address_e.'
                 pass
+            # try:
+            #     if data['events'][event_num]['venue']['address']['localized_address_display'] != None:
+            #         venue_address2 == data['events'][event_num]['venue']['address']['localized_address_display']
+            #         print("The venue address: ", venue_address2)
+            #     else:
+            #         venue_address2 = 'No venue address_n'
+            # except (RuntimeError, TypeError, NameError):
+            #     print("Error: ", sys.exc_info()[0])
+            #     venue_address2 = 'No venue address_e.'
+            #     pass
 
             #form a list with the event's info, trace how many had missing info
-            if longitude != 'Empty':
+            if name != 'Empty':
                 list_venue_details = [name, description, latitude, longitude, event_url, start_datetime,
-                end_datetime, image_logo, venue_name, venue_address]
+                end_datetime, image_logo, venue_name, venue_address2]
             else:
                 events_with_missing_details.append(list_venue_details)
 
             #append the list of event properties to the list of events if no duplicates are present
             if list_venue_details not in list_of_lists_events: list_of_lists_events.append(list_venue_details)
+
+    with open('evbright_results.json', 'w') as fp1: #save to JSON
+        json.dump(data, fp1, indent = 2)
 
     #check how many events were parsed into the file and how many left out because of missing details
     print("The total number of events found is: ", len(list_of_lists_events) - 1)
@@ -346,18 +365,18 @@ def CreateJSON(s,e,k,dt_start,dt_end):
         #create an event dictionary with all the info
         # add image
         infobox = '<div id="content">' + '<img src="' + list_of_lists_events[event][7] + '"/>'
-        # add title 
-        infobox += '<h5>' + list_of_lists_events[event][0] + '</h5>' 
+        # add title
+        infobox += '<h5>' + list_of_lists_events[event][0] + '</h5>'
         # add date/time
-        infobox += '<div id="bodyContent">' + '<p><strong>' + list_of_lists_events[event][5] + ' - ' + list_of_lists_events[event][6] + '</strong><br/><br/>' 
+        infobox += '<div id="bodyContent">' + '<p><strong>' + 'Date: '+ list_of_lists_events[event][5] + ' - ' + list_of_lists_events[event][6] + '</strong><br/><br/>'
         # add venue name
-        infobox += 'Venue: ' + list_of_lists_events[event][8]  + '<br/>' 
+        infobox += 'Venue: ' + list_of_lists_events[event][8]  + '<br/>'
         # add address
         infobox += 'Address : ' + list_of_lists_events[event][9] + '<br/><br/>'
-        # add description 
+        # add description
         infobox += list_of_lists_events[event][1] + '<br/><br/>'
-        # add URL 
-        infobox += '<a href=">' + list_of_lists_events[event][4] + '">' + list_of_lists_events[event][4] + '</a><br/>'        
+        # add URL
+        infobox += '<a href=">' + list_of_lists_events[event][4] + '">' + list_of_lists_events[event][4] + '</a><br/>'
         # add closing tags
         infobox += '</p></div></div>'
 
@@ -371,7 +390,7 @@ def CreateJSON(s,e,k,dt_start,dt_end):
 
         #Create final dictionary for saving to JSON
         data_json = list_of_event_dictionaries
-        
+
 
     #Create the final dictionary with all the events for saving to JSON
     # data_json = {"type" : "FeatureCollection", "features" : list_of_event_dictionaries}
