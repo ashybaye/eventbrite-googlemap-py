@@ -241,10 +241,6 @@ def CreateJSON(s,e,k,dt_start,dt_end):
         # pp.pprint(data)
         length_events = int(len(data['events']))
 
-        #if no events found return False, to tell user about it
-        if length_events == 0:
-            return False
-
         #extract only the info of interest from the Eventbright results
         for event_num in range(0, length_events):
             # print("Going through event: ", event_num + 1)
@@ -354,6 +350,9 @@ def CreateJSON(s,e,k,dt_start,dt_end):
         print("The number of events exceeds top limit (200). Please change your search parameters. \
         The first 200 events are mapped.")
         list_of_lists_events = list_of_lists_events[1:200]
+    elif len(list_of_lists_events) == 1:
+        print("No events found.")
+        return None    
 
     """
     5. Create a JSON file for mapping by Google Maps JavaScript.

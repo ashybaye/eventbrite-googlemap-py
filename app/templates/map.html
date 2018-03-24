@@ -50,6 +50,9 @@
                 <img src= "/static/images/loading.gif" style="width:150px; height:auto;">
             </div>
             <div id="google-map">
+                {% if message %}
+                    <h4>{{message}}</h4>
+                {% endif %}
                 {% if sndmap %}
                     {{sndmap.js}}
                     {{sndmap.html}}

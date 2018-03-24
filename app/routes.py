@@ -14,11 +14,7 @@ def index():
 @app.route('/map', methods=['GET', 'POST'])
 def places():
     form = PlacesForm()
-<<<<<<< HEAD
     if request.method == 'POST' and form.validate_on_submit():
-=======
-    if request.method == 'POST':
->>>>>>> e224361c18da23d62cfd14c0e6290fea4a971656
         try:
             place_start = request.form.get('place_start')
             place_end = request.form.get('place_end')
@@ -28,15 +24,27 @@ def places():
 
             placesJSON = CreateJSON(place_start,place_end,interest,dt_start,dt_end)
             # return placesJSON
-            sndmap = Map(
-                identifier = "sndmap",
-                style = "height:90%;width:auto;margin:0;",
-                lat = placesJSON[0]['lat'],
-                lng = placesJSON[0]['lng'],
-                markers = placesJSON,
-                fit_markers_to_bounds = True
-            )
-            return render_template('map.html', title='Set up the route', form=form , sndmap=sndmap)
+
+            if placesJSON == None: 
+                defaultmap = Map(
+                    identifier="view-side",
+                    style = "height:90%;width:auto;margin:0;",
+                    lat = 40.0,
+                    lng = -95.0,
+                    zoom = 4
+                )
+                message = "No events. Please change the search parameters."
+                return render_template('map.html', title='Set up the route', form=form, defaultmap=defaultmap, message = message) 
+            else:
+                sndmap = Map(
+                    identifier = "sndmap",
+                    style = "height:90%;width:auto;margin:0;",
+                    lat = placesJSON[0]['lat'],
+                    lng = placesJSON[0]['lng'],
+                    markers = placesJSON,
+                    fit_markers_to_bounds = True
+                )
+                return render_template('map.html', title='Set up the route', form=form , sndmap=sndmap)
 
 
         except Exception as e:
