@@ -1,6 +1,6 @@
 from flask import render_template, flash, redirect, url_for, request, Flask,jsonify,json
 from app import app
-from app.forms import LoginForm, PlacesForm
+from app.forms import PlacesForm
 from .createjson import CreateJSON
 from flask_googlemaps import GoogleMaps, Map
 
@@ -9,31 +9,7 @@ GoogleMaps(app)
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'username': 'Amy'}
-    posts = [
-        {
-            'author': {'username': 'John'},
-            'body': 'Beautiful day in Portland!'
-        },
-        {
-            'author': {'username': 'Susan'},
-            'body': 'The Avengers movie was so cool!'
-        }
-    ]
-    return render_template('index.html', title='Home', user=user, posts=posts)
-
-@app.route('/login', methods=['GET', 'POST'])
-def login():
-    form = LoginForm()
-    if form.validate_on_submit():
-        flash('Login requested for user {}, remember_me={}'.format(
-            form.username.data, form.remember_me.data))
-        return redirect(url_for('index'))
-    return render_template('login.html', title='Sign In', form=form) 
-
-@app.route('/result')
-def result():
-   return render_template('result.html', title='Submitted route')
+    return render_template('map.html', title='Home')
     
 @app.route('/map', methods=['GET', 'POST'])
 def places():
@@ -50,7 +26,7 @@ def places():
             # return placesJSON
             sndmap = Map(
                 identifier = "sndmap",
-                style = "height:100%;width:auto;margin:0;",
+                style = "height:85%;width:auto;margin:0;",
                 lat = placesJSON[0]['lat'],
                 lng = placesJSON[0]['lng'],
                 markers = placesJSON,
@@ -63,36 +39,15 @@ def places():
             return error.format_exception(
                 e,
                 target=self.__class__.__name__.lower(),
-                action='PUT')             
-    return render_template('map.html', title='Set up the route', form=form)
-
-# @app.route("/map")
-# def mapview():
-#     # creating a map in the view
-#     mymap = Map(
-#         identifier="view-side",
-#         lat=37.4419,
-#         lng=-122.1419,
-#         markers=[(37.4419, -122.1419)]
-#     )
-#     sndmap = Map(
-#         identifier="sndmap",
-#         lat=37.4419,
-#         lng=-122.1419,
-#         markers=[
-#           {
-#              'icon': 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
-#              'lat': 37.4419,
-#              'lng': -122.1419,
-#              'infobox': "<b>Hello World</b>"
-#           },
-#           {
-#              'icon': 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
-#              'lat': 37.4300,
-#              'lng': -122.1400,
-#              'infobox': "<b>Hello World from other place</b>"
-#           }
-#         ]
-#     )
-#     return render_template('map.html', sndmap=sndmap)    
+                action='PUT')    
+    else:
+        defaultmap = Map(
+            identifier="view-side",
+            style = "height:85%;width:auto;margin:0;",
+            lat = 40.0,
+            lng = -95.0,
+            zoom = 4
+        )  
+        return render_template('map.html', title='Set up the route', form=form, defaultmap=defaultmap)                   
+    return render_template('map.html', title='Set up the route', form=form) 
     

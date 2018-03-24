@@ -1,0 +1,18 @@
+#bodyContent {
+  max-width: 300px;
+}
+.map {
+  max-height: 480px;
+}
+/* #google-map {
+  display: block;
+  }  */
+
+#loading {
+  width: 35px;
+  height: 35px;
+  display: none;
+  cursor: wait;
+  display: none;
+  margin: 100px auto;
+  }
