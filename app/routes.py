@@ -9,7 +9,7 @@ GoogleMaps(app)
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template('map.html', title='Home')
+    return redirect(url_for('places'))
 
 @app.route('/map', methods=['GET', 'POST'])
 def places():

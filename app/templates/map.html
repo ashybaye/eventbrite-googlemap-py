@@ -11,20 +11,20 @@
                     {{ form.hidden_tag() }}
                 
                         {{ form.place_start.label(class_='col-form-label') }}
-                        {{ form.place_start(size=60,class_='form-control', value='Chicago') }}
+                        {{ form.place_start(size=60,class_='form-control') }}
                         
                         {% for error in form.place_start.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}
 
                         {{ form.place_end.label(class_='col-form-label') }}
-                        {{ form.place_end(size=60,class_='form-control',value='Chicago') }}
+                        {{ form.place_end(size=60,class_='form-control') }}
                         {% for error in form.place_end.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}
 
                         {{ form.interest.label(class_='col-form-label') }}
-                        {{ form.interest(size=60,class_='form-control',value='music') }}
+                        {{ form.interest(size=60,class_='form-control') }}
                         {% for error in form.interest.errors %}
                         <span style="color: red;">[{{ error }}]</span>
                         {% endfor %}

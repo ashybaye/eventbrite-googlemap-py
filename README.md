@@ -10,5 +10,5 @@ Install steps:
 6. $ source venv/bin/activate
 7. (venv) $ pip install flask
 8. (venv) $ export FLASK_APP=eventbrite-googlemap.py  
-9. (venv) $ pip install flask-wtf, request, flask_googlemaps, flask_cache
+9. (venv) $ pip install flask-wtf requests flask_googlemaps flask_cache
 10. (venv) $ flask run
