@@ -388,8 +388,8 @@ def CreateJSON(s,e,k,dt_start,dt_end):
 
     # pp.pprint(data_json)
     ##save to JSON for mapping
-    with open('trip_json_res.json', 'w') as fp:
-        json.dump(data_json, fp, indent = 2)
+    # with open('trip_json_res.json', 'w') as fp:
+    #     json.dump(data_json, fp, indent = 2)
 
     # save CSV file (for Google Fusion Tables or else)
     # with open('mytripevents.csv', 'w') as csvfile:
