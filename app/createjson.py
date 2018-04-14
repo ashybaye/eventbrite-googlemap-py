@@ -370,14 +370,12 @@ def CreateJSON(s,e,k,dt_start,dt_end):
         infobox += '<h5>' + list_of_lists_events[event][0] + '</h5>'
         # add date/time
         infobox += '<div id="bodyContent">' + '<p><strong>' + 'Date: '+ list_of_lists_events[event][5] + ' - ' + list_of_lists_events[event][6] + '</strong><br/><br/>'
-        # add description
-        infobox += list_of_lists_events[event][1] + '<br/><br/>'
+        # add description and URL
+        infobox += list_of_lists_events[event][1] + '<a href="' + list_of_lists_events[event][4] + '">More...</a>' + '<br/><br/>'
         # add venue name
         infobox += 'Venue: ' + list_of_lists_events[event][8]  + '<br/>'
         # add address
         infobox += list_of_lists_events[event][9] + '<br/><br/>'
-        # add URL
-        infobox += '<a href="' + list_of_lists_events[event][4] + '">' + list_of_lists_events[event][4] + '</a><br/>'
         # add closing tags
         infobox += '</p></div></div>'
 

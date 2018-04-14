@@ -28,7 +28,7 @@ def places():
             if placesJSON == None: 
                 defaultmap = Map(
                     identifier="view-side",
-                    style = "height:90%;width:auto;margin:0;",
+                    style = "height:100%;width:auto;margin:0;",
                     lat = 40.0,
                     lng = -95.0,
                     zoom = 4
@@ -38,7 +38,7 @@ def places():
             else:
                 sndmap = Map(
                     identifier = "sndmap",
-                    style = "height:90%;width:auto;margin:0;",
+                    style = "height:100%;width:auto;margin:0;",
                     lat = placesJSON[0]['lat'],
                     lng = placesJSON[0]['lng'],
                     markers = placesJSON,
