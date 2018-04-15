@@ -17,7 +17,7 @@
         <link href="https://cdn.jsdelivr.net/npm/gijgo@1.9.3/combined/css/gijgo.min.css" rel="stylesheet" type="text/css" />
         
         <!-- add local styles -->
-        <link href="static/style.css" rel="stylesheet" type="text/css" />
+        <!-- <link href="static/style.css" rel="stylesheet" type="text/css" /> -->
         <style type="text/css">
             .gm-style img {
                 max-width: 250px !important;
@@ -26,12 +26,34 @@
             #content {
                 max-width: 250px;
             }
+            #bodyContent {
+                max-width: 300px;
+            }
+            .map {
+                max-height: 550px;
+                
+            }
+            #google-map {
+            display: block;
+            } 
+            #google-map img {
+                max-width:none !important;
+            }             
+
+            #loading {
+                width: 35px;
+                height: 35px;
+                display: none;
+                cursor: wait;
+                display: none;
+                margin: 100px auto;
+            }
         </style>
 
         <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
             {% with messages = get_flashed_messages() %}
             {% if messages %}
             <ul>
